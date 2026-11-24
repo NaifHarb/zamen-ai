@@ -10,7 +10,7 @@ class Router:
         self.last = {}
         self.disabled = set()
         self.total = 0
-    def generate(self, prompt, analysis=False):
+    def generate(self, prompt, analysis=False, validator=None):
         order = ["gemini-3.6-flash","gemini-3.5-flash-lite"] if analysis else ["gemini-3.5-flash-lite","gemini-3.6-flash"]
         order += [m["id"] for m in self.models if m["role"] == "standby"]
         for name in order:
@@ -21,13 +21,18 @@ class Router:
             self.last[name] = time.monotonic()
             self.used[name] = self.used.get(name,0)+1
             self.total += 1
-            req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models/"+name+":generateContent", headers={"x-goog-api-key":self.key,"Content-Type":"application/json"}, data=json.dumps({"contents":[{"parts":[{"text":prompt}]}],"generationConfig":{"maxOutputTokens":2048}}).encode())
+            req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models/"+name+":generateContent", headers={"x-goog-api-key":self.key,"Content-Type":"application/json"}, data=json.dumps({"contents":[{"parts":[{"text":prompt}]}],"generationConfig":{"maxOutputTokens":4096}}).encode())
             try:
-                with urllib.request.urlopen(req, timeout=45) as r:
+                with urllib.request.urlopen(req, timeout=90) as r:
                     result=json.load(r)
                 output="".join(p.get("text","") for c in result.get("candidates",[]) for p in c.get("content",{}).get("parts",[]) if not p.get("thought"))
                 if output.strip():
-                    return output, name
+                    try:
+                        if validator is None or validator(output):
+                            return output, name
+                    except (ValueError, TypeError):
+                        pass
+                    print("MODEL",name,"invalid output",flush=True)
             except urllib.error.HTTPError as e:
                 print("MODEL",name,e.code,flush=True)
                 if e.code in (401,403): raise RuntimeError("API authorization failed") from None
