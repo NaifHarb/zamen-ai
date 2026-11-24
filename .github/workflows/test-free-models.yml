@@ -1,0 +1,19 @@
+name: Test free models
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test approved models
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ZAMEN_FREE_MODEL_IDS: models/gemini-4-hydrogen,models/gemini-3.8-flash,models/gemini-3.6-flash,models/gemini-3.5-flash-lite,models/gemini-3.1-flash-lite,models/gemini-3-flash-preview,models/gemini-2.5-flash,models/gemini-2.5-flash-lite,models/gemma-4-26b-a4b-it,models/gemma-4-31b-it,models/gemini-embedding-001,models/gemini-embedding-2
+        run: python scripts/probe_models.py
