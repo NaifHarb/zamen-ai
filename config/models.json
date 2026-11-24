@@ -1,0 +1,94 @@
+{
+  "policy": {
+    "free_tier_required": true,
+    "paid_fallback": false,
+    "automatic_activation_of_unknown_models": false
+  },
+  "models": [
+    {
+      "id": "gemini-3.5-flash-lite",
+      "rpd": 500,
+      "rpm": 15,
+      "status": "verified",
+      "role": "primary"
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "rpd": 20,
+      "rpm": 5,
+      "status": "verified",
+      "role": "analysis"
+    },
+    {
+      "id": "gemini-embedding-001",
+      "rpd": 1000,
+      "rpm": 100,
+      "status": "verified",
+      "role": "embedding"
+    },
+    {
+      "id": "gemini-embedding-2",
+      "rpd": 1000,
+      "rpm": 100,
+      "status": "verified",
+      "role": "embedding"
+    },
+    {
+      "id": "gemini-4-hydrogen",
+      "rpd": 20,
+      "rpm": 5,
+      "status": "temporary_503",
+      "role": "standby"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "rpd": 20,
+      "rpm": 5,
+      "status": "temporary_503",
+      "role": "standby"
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "rpd": 500,
+      "rpm": 15,
+      "status": "temporary_503",
+      "role": "standby"
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "rpd": 20,
+      "rpm": 5,
+      "status": "temporary_503",
+      "role": "standby"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it",
+      "rpd": 14400,
+      "rpm": 30,
+      "status": "temporary_503",
+      "role": "standby"
+    },
+    {
+      "id": "gemma-4-31b-it",
+      "rpd": 14400,
+      "rpm": 30,
+      "status": "temporary_503",
+      "role": "standby"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "rpd": 0,
+      "rpm": 0,
+      "status": "unavailable_404",
+      "role": "disabled"
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "rpd": 0,
+      "rpm": 0,
+      "status": "unavailable_404",
+      "role": "disabled"
+    }
+  ],
+  "quota_note": "Observed UI limits, independence and billing not verified by API probe."
+}
