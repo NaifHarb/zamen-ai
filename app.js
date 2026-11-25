@@ -79,8 +79,21 @@ function safe(value) {
   } catch { return ''; }
 }
 
+// Editorial gate: keep rejected records accessible via saved items and direct links.
+function wordCount(value) {
+  return (String(value || '').match(/[\p{L}\p{N}]+/gu) || []).length;
+}
+function rssUrgent(story) {
+  const title = String(story.original_title || '');
+  const age = Date.now() - Date.parse(story.published_at);
+  return story.rss_category === 'السياسة' && /^(?:breaking(?: news)?\b|عاجل(?:\s|:|：|\|))/iu.test(title.trim()) &&
+    age >= 0 && age <= 6 * 3600000 && wordCount(story.excerpt) >= 35 && wordCount(story.summary_ar) >= 35;
+}
 function isDiscoverable(story) {
-  return !Object.hasOwn(story, 'rss_category') || Boolean(story.rss_category);
+  if (!Object.hasOwn(story, 'rss_category')) return wordCount(story.summary_ar || story.detailed_ar) >= 80;
+  if (story.rss_category !== 'السياسة') return false;
+  return rssUrgent(story) || (wordCount(story.excerpt) >= 120 &&
+    wordCount(story.detailed_ar || story.summary_ar) >= 150);
 }
 
 function group(story) {
@@ -578,12 +591,12 @@ function readingModes(story) {
       modes.push({id: 'translation', label: 'الترجمة العربية المرخّصة', text: entry.translation_ar, note: entry.attribution, licenseURL});
     }
   }
-  if (story.detailed_ar) {
+  if (story.detailed_ar && !rssUrgent(story)) {
     const basis = story.content_basis === 'rss_excerpt' ? 'مبنية على مقتطف موجز RSS' : 'مبنية على البيانات المتاحة';
     const label = /gemini/i.test(story.model || '') ? 'تغطية Gemini الموسّعة' : 'التغطية الموسّعة';
     modes.push({id: 'coverage', label, text: story.detailed_ar, note: basis + '. النص المنشور متاح لدى المصدر.'});
   }
-  if (story.summary_ar) modes.push({id: 'summary', label: 'ملخص الخبر', text: story.summary_ar, note: 'ملخص للمادة المنشورة لدى المصدر.'});
+  if (story.summary_ar) modes.push({id: 'summary', label: rssUrgent(story) ? 'تحديث عاجل مختصر' : 'ملخص الخبر', text: story.summary_ar, note: 'ملخص للمادة المنشورة لدى المصدر.'});
   if (story.excerpt) modes.push({id: 'rss', label: 'مقتطف RSS', text: story.excerpt, note: 'مقتطف من موجز الناشر.'});
   return modes;
 }
