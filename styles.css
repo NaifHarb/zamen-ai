@@ -222,3 +222,6 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
  .category-section .section-head a{text-decoration:none}
  .bottom{padding-inline-start:max(.35rem,env(safe-area-inset-right));padding-inline-end:max(.35rem,env(safe-area-inset-left))}
 }
+
+/* Collapse confirmed missing hero images, retaining pending image space. */
+.featured .picture-link:has(.media.is-unavailable) { display: none }
