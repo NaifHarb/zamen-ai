@@ -258,17 +258,17 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
 .view-expanded .story h2{font:700 1.55rem/1.4 var(--serif)}
 
 /* ZAMEN merged editorial edition — original brand assets retained. */
-#news > .featured{position:relative;display:grid;overflow:hidden;border:0;border-radius:14px;background:#191716;color:#fff;padding:0;margin-block-end:1.25rem;isolation:isolate}
-#news > .featured > .picture-link,#news > .featured > .copy{grid-area:1/1}
-#news > .featured > .picture-link{display:block;align-self:stretch}
-#news > .featured .media{width:100%;height:100%;max-height:none;min-height:clamp(330px,43vw,480px);aspect-ratio:auto;border-radius:0}
-#news > .featured > .copy{position:relative;align-self:end;z-index:1;padding:clamp(1rem,3vw,2rem);background:linear-gradient(transparent,#151313ed 32%,#151313);padding-block-start:4rem;pointer-events:none}
-#news > .featured .copy a,#news > .featured .copy button{pointer-events:auto;color:inherit}
-#news > .featured .tag{display:inline-block;background:#a81827;color:#fff;padding:.2rem .6rem;border-radius:6px;font-size:.8rem}
-#news > .featured .story-title{font:700 clamp(1.65rem,3.4vw,2.8rem)/1.35 var(--serif);margin-block:.35rem}
-#news > .featured .deck{color:#eee;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:1rem}
-#news > .featured .meta{color:#ddd}
-#news > .featured .media.is-editorial .mark{inset:0 0 auto auto;width:max-content}
+.private-front > .featured{position:relative;display:grid;overflow:hidden;border:0;border-radius:14px;background:#191716;color:#fff;padding:0;margin-block-end:1.25rem;isolation:isolate}
+.private-front > .featured > .picture-link,.private-front > .featured > .copy{grid-area:1/1}
+.private-front > .featured > .picture-link{display:block;align-self:stretch}
+.private-front > .featured .media{width:100%;height:100%;max-height:none;min-height:clamp(330px,43vw,480px);aspect-ratio:auto;border-radius:0}
+.private-front > .featured > .copy{position:relative;align-self:end;z-index:1;padding:clamp(1rem,3vw,2rem);background:linear-gradient(transparent,#151313ed 32%,#151313);padding-block-start:4rem;pointer-events:none}
+.private-front > .featured .copy a,.private-front > .featured .copy button{pointer-events:auto;color:inherit}
+.private-front > .featured .tag{display:inline-block;background:#a81827;color:#fff;padding:.2rem .6rem;border-radius:6px;font-size:.8rem}
+.private-front > .featured .story-title{font:700 clamp(1.65rem,3.4vw,2.8rem)/1.35 var(--serif);margin-block:.35rem}
+.private-front > .featured .deck{color:#eee;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:1rem}
+.private-front > .featured .meta{color:#ddd}
+.private-front > .featured .media.is-editorial .mark{inset:0 0 auto auto;width:max-content}
 .feed-view-controls{justify-content:stretch;gap:.4rem}
 .feed-view-controls button{flex:1;border-radius:9px;font-weight:600}
 .feed-view-controls button[aria-pressed=true]{background:#b51223;color:white;border-color:#b51223}
@@ -284,3 +284,43 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
 .view-list .tile .copy{grid-column:2}
 @media(min-width:1000px){.unified-feed.view-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:360px){.unified-feed.view-grid{grid-template-columns:1fr}}
+
+/* ZAMEN — The Private Brief */
+:root{--paper:#f2e9d8;--panel:#faf4e9;--ink:#191817;--muted:#62554a;--line:#d5c6ae;--accent:#74313d;--tint:#ead8d6;--bar:#f2e9d8;--bar-text:#191817;--gold:#80643a;--radius:10px}
+:root.dark{--paper:#191817;--panel:#222324;--ink:#f2e9d8;--muted:#c4b8a7;--line:#494039;--accent:#e4a2ad;--tint:#482a31;--bar:#121518;--bar-text:#f2e9d8;--gold:#b49a64}
+.masthead{border-block-end:1px solid var(--line)}
+.edition{color:var(--muted)}
+.brand span span{color:var(--gold)}
+.tools button[aria-pressed=true],.tools button:hover{background:var(--tint);color:var(--accent)}
+.quick-nav .nav-link,.sidebar .nav-link{border-radius:8px}
+.nav-link[aria-current],.tab[aria-current]{font-weight:600}
+.section-head h1,.unified-heading,.reader h1{font-family:var(--serif)}
+.unified-heading{border-inline-start-color:var(--gold)}
+.private-front > .featured{border:1px solid #6e5841;border-radius:14px;background:#182330}
+.private-front > .featured > .copy{background:linear-gradient(transparent,#191817e8 38%,#26171b)}
+.private-front > .featured .tag,.feed-view-controls button[aria-pressed=true]{background:#74313d;border-color:#74313d;color:#fff}
+.view-grid .tile{border-radius:12px}
+.view-grid .tile .story-title{font-family:var(--serif);font-size:1.2rem;line-height:1.45}
+.tile-category{color:var(--gold)}
+.bottom{background:var(--paper);border-block-start:1px solid var(--line)}
+.reader .reading-copy{line-height:1.95}
+@media(prefers-reduced-motion:no-preference){button,.nav-link,.tab{transition:background-color .16s,color .16s,border-color .16s}}
+@media(max-width:649px){.private-front > .featured .media{min-height:360px}.private-front > .featured .deck{-webkit-line-clamp:2}.brand strong{font-size:2rem}}
+@media(min-width:1000px){.private-front > .featured .media{min-height:440px}.view-grid .tile .copy{padding:.85rem}}
+
+.private-front{display:grid;gap:1rem;align-items:stretch}
+.private-front > .featured{margin:0}
+.private-highlights{min-width:0;border:1px solid var(--line);border-radius:12px;padding:.8rem;background:var(--panel)}
+.private-highlights h2{font:700 1.5rem/1.4 var(--serif);color:var(--gold);margin-block-end:.4rem}
+.private-highlights .tile:last-child{border:0}
+.private-highlights .tile .media{width:90px}
+.private-sections{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(105px,1fr);overflow-x:auto;gap:.6rem;padding:.85rem 0;scroll-snap-type:x proximity}
+.private-section{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.45rem;min-height:76px;border:1px solid var(--line);border-radius:10px;background:var(--panel);text-decoration:none;font-size:.85rem;text-align:center;padding:.5rem;scroll-snap-align:start}
+.private-section svg{color:var(--gold);width:26px;height:26px}
+.private-section:hover{background:var(--tint)}
+.dark .private-section:first-child{background:#482a31}
+.private-front > .featured .media{min-height:360px}
+.private-front > .featured .deck{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+@media(min-width:1000px){.private-front:has(.private-highlights){grid-template-columns:minmax(0,2.2fr) minmax(0,1fr)}.private-front > .featured .media{min-height:370px}.private-highlights .tile .media{width:clamp(64px,7vw,90px)}}
+@media(min-width:650px){.quick-nav{display:flex;overflow-x:auto;flex-wrap:nowrap}.quick-nav .nav-link{white-space:nowrap}.layout{grid-template-columns:minmax(0,1fr)}.sidebar{display:none!important;--wide-navigation:0!important}main{grid-column:1!important}}
+@media(max-width:649px){.masthead-inner{grid-template-columns:1fr auto 1fr}.brand{grid-column:2;grid-row:1;justify-self:center}.tools{grid-column:3;justify-self:end}.brand img{width:32px;height:32px}.private-front > .featured .media{min-height:330px}.private-front > .featured .story-title{font-size:1.65rem}.private-sections{grid-auto-columns:minmax(90px,1fr)}}
