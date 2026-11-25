@@ -22,7 +22,7 @@ function syncZamen() {
       const published = date instanceof Date ? Utilities.formatDate(date,'Asia/Riyadh','yyyy-MM-dd') : s(date);
       if (!/^\d{4}-\d{2}-\d{2}/.test(published)) continue;
       const id=Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256,link,Utilities.Charset.UTF_8).map(b=>('0'+((b+256)%256).toString(16)).slice(-2)).join('').slice(0,24);
-      items.set(id,{id,category:s(category).slice(0,100)||'أخرى',source:s(source).slice(0,150),article_url:link,title_ar:s(title).slice(0,400),summary_ar:s(summary).slice(0,1500),published_at:published,model:'gemini-task-mode'});
+      items.set(id,{id,category:s(category).slice(0,100)||'أخرى',source:s(source).slice(0,150),article_url:link,title_ar:s(title).slice(0,400),summary_ar:s(summary),published_at:published,model:'gemini-task-mode'});
     }
     if (!items.size) throw new Error('No valid articles');
     const endpoint='https://api.github.com/repos/NaifHarb/zamen-ai/contents/data/sheets-news.json';
