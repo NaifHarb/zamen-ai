@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T06:06:52.842386+00:00",
+  "updated_at": "2026-11-25T07:17:01.044921+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -757,7 +757,12 @@
       "article_url": "https://www.bbc.com/arabic/articles/cw8dv64n0zp3o?at_medium=RSS&at_campaign=rss",
       "original_title": "ملكة جمال الكون: بورتوريكو تحصد التاج على أرضها بعد خروج مبكر للمتسابقات العربيات",
       "excerpt": "أسدل فوز ممثلة بورتوريكو الستار على نسخة استثنائية من المسابقة، شهدت إلى جانب المنافسة على اللقب جدلاً سياسياً واجتماعياً واسعاً.",
-      "published_at": "Wed, 25 Nov 2026 04:22:49 GMT"
+      "published_at": "Wed, 25 Nov 2026 04:22:49 GMT",
+      "title_ar": "ملكة جمال الكون: بورتوريكو تحصد التاج على أرضها بعد خروج مبكر للمتسابقات العربيات",
+      "summary_ar": "أدى فوز ممثلة بورتوريكو إلى إسدال الستار على نسخة استثنائية من المسابقة شهدت جدلاً سياسياً واجتماعياً واسعاً إلى جانب المنافسة على اللقب، وذلك بعد خروج المتسابقات العربيات مبكراً.",
+      "detailed_ar": "أسدل فوز ممثلة بورتوريكو بالتاج على أرضها الستار على نسخة استثنائية من مسابقة ملكة جمال الكون، والتي شهدت إلى جانب المنافسة على اللقب جدلاً سياسياً واجتماعياً واسعاً، وجاء ذلك بعد خروج مبكر للمتسابقات العربيات من المنافسة.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "7f2f2e220215d8990766bbe9",
@@ -880,6 +885,20 @@
       "original_title": "Nigerian monarch, 92, suspended after sexual assault claims",
       "excerpt": "The Emir of Daura is one of Nigeria's best-known monarchs, with politicians often trying to gain his support.",
       "published_at": "Tue, 24 Nov 2026 19:10:31 GMT"
+    },
+    {
+      "id": "6cd45e2d2b78eb32e04a91d6",
+      "category": "السياسة",
+      "source": "BBC World",
+      "article_url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+      "excerpt": "The mission is studying an asteroid deliberately knocked off course by a colliding spacecraft.",
+      "published_at": "Wed, 25 Nov 2026 06:00:36 GMT",
+      "title_ar": "بعد مرور أربع سنوات على اصطدام كويكب ضخم، مركبة فضائية تعود الآن لتقييم الأضرار",
+      "summary_ar": "تدرس المهمة كويكباً تم تغيير مساره عمداً بواسطة مركبة فضائية اصطدمت به.",
+      "detailed_ar": "تدرس المهمة كويكباً تم تغيير مساره عمداً نتيجة اصطدام مركبة فضائية به، وذلك بعد مرور أربع سنوات على وقوع الاصطدام الضخم، حيث عادت مركبة فضائية في الوقت الحالي لتقييم حجم الأضرار الناتجة عن ذلك.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
     }
   ]
 }
