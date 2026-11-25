@@ -1,0 +1,198 @@
+[
+  {
+    "label": "iphone",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "flex",
+        "columns": 1,
+        "heading": 80.609375,
+        "loaded": 5
+      },
+      "dark": {
+        "over": false,
+        "bottom": "flex",
+        "columns": 1,
+        "heading": 80.609375,
+        "loaded": 5
+      }
+    }
+  },
+  {
+    "label": "iphone-large",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "flex",
+        "columns": 1,
+        "heading": 80.609375,
+        "loaded": 5
+      },
+      "dark": {
+        "over": false,
+        "bottom": "flex",
+        "columns": 1,
+        "heading": 80.609375,
+        "loaded": 5
+      }
+    }
+  },
+  {
+    "label": "ipad-portrait",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "none",
+        "columns": 2,
+        "heading": 80.609375,
+        "loaded": 6
+      },
+      "dark": {
+        "over": false,
+        "bottom": "none",
+        "columns": 2,
+        "heading": 80.609375,
+        "loaded": 6
+      }
+    }
+  },
+  {
+    "label": "ipad-landscape",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "none",
+        "columns": 2,
+        "heading": 108.09375,
+        "loaded": 5
+      },
+      "dark": {
+        "over": false,
+        "bottom": "none",
+        "columns": 2,
+        "heading": 108.09375,
+        "loaded": 5
+      }
+    }
+  },
+  {
+    "label": "axe iPad landscape dark",
+    "detail": []
+  },
+  {
+    "label": "axe iPad landscape light",
+    "detail": []
+  },
+  {
+    "label": "ipad-pro-portrait",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "none",
+        "columns": 2,
+        "heading": 93.828125,
+        "loaded": 6
+      },
+      "dark": {
+        "over": false,
+        "bottom": "none",
+        "columns": 2,
+        "heading": 93.828125,
+        "loaded": 6
+      }
+    }
+  },
+  {
+    "label": "ipad-pro-landscape",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "none",
+        "columns": 3,
+        "heading": 109.953125,
+        "loaded": 6
+      },
+      "dark": {
+        "over": false,
+        "bottom": "none",
+        "columns": 3,
+        "heading": 109.953125,
+        "loaded": 6
+      }
+    }
+  },
+  {
+    "label": "desktop",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "none",
+        "columns": 3,
+        "heading": 109.953125,
+        "loaded": 6
+      },
+      "dark": {
+        "over": false,
+        "bottom": "none",
+        "columns": 3,
+        "heading": 109.953125,
+        "loaded": 6
+      }
+    }
+  },
+  {
+    "label": "desktop-large",
+    "detail": {
+      "light": {
+        "over": false,
+        "bottom": "none",
+        "columns": 3,
+        "heading": 109.953125,
+        "loaded": 6
+      },
+      "dark": {
+        "over": false,
+        "bottom": "none",
+        "columns": 3,
+        "heading": 109.953125,
+        "loaded": 6
+      }
+    }
+  },
+  {
+    "label": "axe reader light",
+    "detail": []
+  },
+  {
+    "label": "axe reader dark",
+    "detail": []
+  },
+  {
+    "label": "axe reader iPhone dark",
+    "detail": []
+  },
+  {
+    "label": "core flows",
+    "detail": "pass"
+  },
+  {
+    "label": "offline uncached deep link",
+    "detail": "pass"
+  },
+  {
+    "label": "axe home iPhone light",
+    "detail": []
+  },
+  {
+    "label": "empty, both sources unavailable, broken image",
+    "detail": "pass"
+  },
+  {
+    "label": "application console errors",
+    "detail": []
+  },
+  {
+    "label": "WebKit tablet smoke",
+    "detail": "pass"
+  }
+]
