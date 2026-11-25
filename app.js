@@ -318,6 +318,36 @@ function filtered() {
   });
 }
 
+
+// Original procedural editorial illustrations: five stable compositions per topic.
+const artPalettes = {
+ 'السياسة':['#c71e32','#211f20','#f5e8d4',0],
+ 'الذكاء الاصطناعي':['#6746a8','#191723','#e6dcf5',1],
+ 'الأمن السيبراني':['#a91d32','#171717','#e8ddc8',2],
+ 'التقنية':['#245b91','#19232e','#dce7ef',3],
+ 'أبل':['#777b82','#222222','#f2efe9',4],
+ 'تحديثات ChatGPT':['#19876d','#172b27','#e1ede5',1],
+ 'الاشتراكات الرقمية':['#b38a39','#25211b','#f5e8cd',5]
+};
+function editorialArt(story) {
+ const [accent,ink,paper,kind] = artPalettes[group(story)] || artPalettes['التقنية'];
+ let hash=2166136261;
+ for(const ch of String(story.id)) hash=Math.imul(hash^ch.charCodeAt(0),16777619)>>>0;
+ const v=hash%5, x=280+v*40, y=155+(v%3)*30;
+ const motifs=[
+ '<circle r="94" fill="none" stroke="P" stroke-width="12"/><ellipse rx="44" ry="94" fill="none" stroke="P" stroke-width="7"/><path d="M-90 0H90 M-75 -48H75 M-75 48H75" stroke="P" stroke-width="7"/>',
+ '<path d="M-80 55L-65 -45 0 -90 72 -40 85 50 0 90Z" fill="none" stroke="P" stroke-width="10"/><path d="M-65 -45L85 50 M72 -40L-80 55 M0 -90V90" stroke="P" stroke-width="6"/><circle r="23" fill="P"/>',
+ '<path d="M0 -95L83 -60 68 38 0 94 -68 38 -83 -60Z" fill="P"/><rect x="-36" y="-8" width="72" height="60" rx="6" fill="I"/><path d="M-23 -8V-32A23 23 0 0 1 23 -32V-8" fill="none" stroke="I" stroke-width="12"/>',
+ '<rect x="-65" y="-65" width="130" height="130" fill="P"/><rect x="-40" y="-40" width="80" height="80" fill="I"/><path d="M-45 -95V-65 M0 -95V-65 M45 -95V-65 M-45 65V95 M0 65V95 M45 65V95 M-95 -45H-65 M-95 0H-65 M-95 45H-65 M65 -45H95 M65 0H95 M65 45H95" stroke="P" stroke-width="10"/>',
+ '<rect x="-53" y="-96" width="106" height="192" rx="19" fill="P"/><rect x="-43" y="-84" width="86" height="168" rx="12" fill="I"/><circle cy="-73" r="5" fill="P"/><path d="M-30 50L30 -45" stroke="P" stroke-width="8"/>',
+ '<rect x="-95" y="-60" width="190" height="120" rx="12" fill="P"/><path d="M-95 -25H95" stroke="I" stroke-width="18"/><circle cx="55" cy="27" r="16" fill="I"/><path d="M-70 30H-15" stroke="I" stroke-width="9"/>'
+ ];
+ const motif=motifs[kind].replaceAll('P',paper).replaceAll('I',ink);
+ const buildings=Array.from({length:9},(_,i)=>{const h=65+((hash>>>((i%7)*4))%120);return '<path d="M'+(i*82)+' 400v-'+h+'h55v'+h+'Z" fill="'+(i%2?paper:ink)+'"/>';}).join('');
+ const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"><defs><pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="'+ink+'"/></pattern></defs><rect width="720" height="400" fill="'+accent+'"/><path d="M0 0H'+(180+v*35)+'L720 400H480Z" fill="'+paper+'"/><path d="M0 400L720 '+(40+v*25)+'V400Z" fill="'+ink+'"/><circle cx="'+x+'" cy="'+y+'" r="128" fill="'+ink+'"/><g transform="translate('+x+' '+y+') rotate('+((v-2)*8)+')">'+motif+'</g>'+buildings+'<rect width="720" height="400" fill="url(#dots)" opacity=".13"/></svg>';
+ return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+}
+
 function imageCandidates(story, thumbnail) {
   const mapped = images[story.id];
   const choices = thumbnail ? [story.thumbnail_url, mapped?.thumbnail_url] : [];
@@ -365,6 +395,19 @@ function media(story, {priority = false, reader = false} = {}) {
   let source;
   function tryImage() {
     const next = imageCandidates(story, !priority && !reader).find(candidate => !attempted.has(candidate));
+    if (!next && imageMapReady && !attempted.has('editorial')) {
+      attempted.add('editorial');
+      source = editorialArt(story);
+      frame.classList.remove('is-unavailable');
+      frame.classList.add('is-editorial');
+      photo.alt = 'رسم توضيحي رمزي — ليس صورة للحدث';
+      photo.removeAttribute('srcset');
+      photo.src = source;
+      mark.textContent = 'رسم توضيحي';
+      mark.removeAttribute('aria-hidden');
+      mark.hidden = false;
+      return;
+    }
     if (!next) {
       source = '';
       photo.classList.add('is-pending');
@@ -384,7 +427,7 @@ function media(story, {priority = false, reader = false} = {}) {
   }
   photo.addEventListener('load', () => {
     if (source && photo.naturalWidth) {
-      mark.hidden = true;
+      mark.hidden = !frame.classList.contains('is-editorial');
       photo.classList.remove('is-pending');
     }
   });
@@ -395,7 +438,7 @@ function media(story, {priority = false, reader = false} = {}) {
   tryImage();
   // Only known image candidates reserve a full reader image before auxiliary
   // data arrives. The feed always reserves its frame to avoid layout shifts.
-  if (reader && !source) return null;
+  if (reader && !source && imageMapReady) return null;
   mediaUpdates.add(() => {
     if (frame.isConnected && !source) tryImage();
   });
