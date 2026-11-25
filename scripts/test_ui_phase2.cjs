@@ -9,7 +9,9 @@ const axe = require.resolve('axe-core/axe.min.js');
 const fixtureImage = fs.readFileSync(path.join(__dirname, '../icon-512.png'));
 const dims=[[320,700],[375,667],[390,844],[430,932],[600,810],[820,1180],[1024,1366],[1180,820],[1366,1024],[1440,900],[1920,1080]];
 const rank=x=>Date.parse(x.published_at)||0;
-const rss=require('../data/news.json').items;
+const legacy = require('../data/rss-classifications.json');
+const rss = require('../data/news.json').items.map(story => Object.hasOwn(story, 'rss_category') ? story :
+  {...story, rss_category: legacy[story.id] || null});
 const sheets=require('../data/sheets-news.json').items;
 const news=new Map([...rss,...sheets].map(x=>[x.id,x]));
 const webkitOnly=process.argv.includes('--webkit');

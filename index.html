@@ -18,7 +18,7 @@
     } catch {}
     // Start the small edition requests while CSS and the deferred app load.
     window.zamenStartup = Object.fromEntries(
-      ['news', 'sheets-news', 'images'].map(name => {
+      ['news', 'sheets-news', 'images', 'rss-classifications'].map(name => {
         const path = 'data/' + name + '.json';
         return [path, fetch(path, {cache: 'no-cache'}).catch(() => null)];
       })

@@ -924,8 +924,8 @@ async function initialize() {
       refreshReadingModes?.();
     }).catch(() => {});
   }
-  const [rss, sheets] = await Promise.allSettled([
-    load('data/news.json', isFeed), load('data/sheets-news.json', isFeed)
+  const [rss, sheets, classifications] = await Promise.allSettled([
+    load('data/news.json', isFeed), load('data/sheets-news.json', isFeed), load('data/rss-classifications.json', isMap)
   ]);
   if (!rss.value && !sheets.value) {
     $('feed').setAttribute('aria-busy', 'false');
@@ -934,7 +934,11 @@ async function initialize() {
     return;
   }
   const arabic = /[\u0600-\u06ff]/;
-  const publicRSS = (rss.value?.items || []).filter(story => arabic.test(story?.title_ar) && arabic.test(story?.summary_ar));
+  const archivedClassifications = classifications.value || {};
+  const publicRSS = (rss.value?.items || [])
+    .filter(story => arabic.test(story?.title_ar) && arabic.test(story?.summary_ar))
+    .map(story => Object.hasOwn(story, 'rss_category') ? story :
+      {...story, rss_category: archivedClassifications[story.id] || null});
   items = [...new Map([...publicRSS, ...(sheets.value?.items || [])]
     .filter(story => story?.id !== undefined && story.id !== null)
     .map(story => [String(story.id), story])).values()]

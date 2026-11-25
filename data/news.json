@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:42:09.456240+00:00",
+  "updated_at": "2026-11-25T09:53:59.766124+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -11,8 +11,7 @@
       "published_at": "Tue, 24 Nov 2026 15:54:25 GMT",
       "title_ar": "عقوبات بريطانية تستهدف جماعة الحوثي وأربعة من قادتها، وهجوم على أعلى ناطحة سحاب في الرياض",
       "summary_ar": "أعلن المتحدث العسكري باسم الحوثيين إسقاط طائرة استطلاع مسلحة سعودية من طراز \"وينق لونق 2\" أثناء قيامها بأعمال عدائية قبالة سواحل محافظة لحج وفق تصريحه.",
-      "model": "gemini-3.6-flash",
-      "rss_category": "السياسة"
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "22195dfd9937858eb7276f04",
@@ -24,8 +23,7 @@
       "published_at": "Tue, 24 Nov 2026 16:01:27 GMT",
       "title_ar": "السنغال تستعيد لقب كأس الأمم الأفريقية 2025 بقرار من محكمة التحكيم الرياضية، والمغرب يعتزم الطعن",
       "summary_ar": "أعلنت محكمة التحكيم الرياضية (كاس) فوز السنغال بلقب كأس الأمم الأفريقية لكرة القدم لعام 2025 بعد قبول استئنافها ضد قرار تجريدها من اللقب.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "a6721fcf74c48ed6403b0646",
@@ -37,8 +35,7 @@
       "published_at": "Tue, 24 Nov 2026 13:52:08 GMT",
       "title_ar": "لماذا لا أُفصح دائماً عن إصابتي بعسر القراءة؟",
       "summary_ar": "يتناول النص فكرة أنه لا ينبغي للمصابين باضطراب عسر القراءة أن يضطروا للعمل بشكل أكبر من زملائهم فقط للحصول على الفرص ذاتها.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "3e0fcf2338ad50fed38c72bc",
@@ -50,8 +47,7 @@
       "published_at": "Tue, 24 Nov 2026 10:55:56 GMT",
       "title_ar": "هذا هو \"الوضع الطبيعي الجديد\" في دول الخليج - فايننشال تايمز",
       "summary_ar": "تستعرض الصحف البريطانية عدة قضايا بارزة، من بينها طبيعة حياة سكان الخليج في ظل وضع معلق بين اللا حرب واللا سلم، وتصرف دونالد ترامب تجاه قمة المناخ، إضافة إلى الحكم الصادر ضد ميانمار بخصوص ارتكاب إبادة ضد الروهينغا.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "709b6873ef9047d6a2705186",
@@ -63,8 +59,7 @@
       "published_at": "Tue, 24 Nov 2026 08:28:34 GMT",
       "title_ar": "مصرع 11 شخصاً جراء تصادم بين حافلة وشاحنة في إمارة رأس الخيمة",
       "summary_ar": "أفادت وزارة الداخلية الإماراتية بأنه فور تلقي البلاغ انتقلت الفرق المختصة بالتعاون مع الإسعاف والدفاع المدني إلى موقع الحادث لمباشرة عمليات الإنقاذ والإسعاف وتأمين الموقع وتنظيم الحركة المرورية.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "c89b0fb2e8c88d1b982c8416",
@@ -76,8 +71,7 @@
       "published_at": "Tue, 24 Nov 2026 09:56:09 GMT",
       "title_ar": "غزة تعلن حالة الإنذار الوبائي مع تصاعد إصابات التهاب السحايا، فماذا نعرف عنه؟",
       "summary_ar": "حذرت وزارة الصحة الفلسطينية من ارتفاع مقلق في إصابات التهاب السحايا بقطاع غزة نتيجة تدهور الأوضاع الصحية وتلوث المياه ونقص الأدوية، فيما أعلن مجمع الشفاء الطبي عن وفاة 12 شخصاً بالمرض خلال شهرين.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "90b259506a1aff6a5b713879",
@@ -89,8 +83,7 @@
       "published_at": "Tue, 24 Nov 2026 05:15:07 GMT",
       "title_ar": "حلف الناتو يتعهد بردع التهديدات الفضائية وسط تقارير استخباراتية عن سلاح نووي روسي مداري",
       "summary_ar": "تفيد تقارير إعلامية ألمانية بعزم روسيا إطلاق قمر صناعي يحمل رأساً حربياً نووياً إلى الفضاء في الأسابيع المقبلة.",
-      "model": "gemini-3.6-flash",
-      "rss_category": "السياسة"
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "30b85b7b8c181662d3dda930",
@@ -102,8 +95,7 @@
       "published_at": "Tue, 24 Nov 2026 06:20:13 GMT",
       "title_ar": "كيف نتأكد من سلامة اللقاحات؟ إليكم أسرار اختبارات الأمان",
       "summary_ar": "تمر اللقاحات بفحوصات دقيقة ومتعددة لضمان سلامتها، تشمل الاختبارات المختبرية وتستمر بمراقبة أمانها على مدى سنوات الاستخدام.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "4675465c97858be8d1f0ac8b",
@@ -115,8 +107,7 @@
       "published_at": "Tue, 24 Nov 2026 03:50:58 GMT",
       "title_ar": "اشتباه في وقوف إيران وراء هجمات سيبرانية على 50 سفينة، وعقوبات جديدة على \"شبكة الظل\" المالية لطهران",
       "summary_ar": "تواجه إيران تصعيداً متزايداً مع واشنطن بسبب شبهات حول تورطها في هجمات سيبرانية طالت نحو 50 سفينة وناقلة طاقة، بالتزامن مع فرض عقوبات أمريكية جديدة على شبكاتها المالية غير الرسمية.",
-      "model": "gemini-3.6-flash",
-      "rss_category": "السياسة"
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "7d54f19f165bfd44c45a0de7",
@@ -128,8 +119,7 @@
       "published_at": "Mon, 23 Nov 2026 11:46:02 GMT",
       "title_ar": "الناقل الوطني للمياه... هل يحقق الأردن استقلاله المائي؟",
       "summary_ar": "أطلق الأردن مشروع الناقل الوطني للمياه، والذي يُعد أضخم مشروع استراتيجي في تاريخ المملكة من حيث الحجم والكلفة، وأحد أكبر مشاريع تحلية ونقل المياه في المنطقة والعالم.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "b8b0187c03234ee88aa90dde",
@@ -141,8 +131,7 @@
       "published_at": "Sun, 22 Nov 2026 13:47:18 GMT",
       "title_ar": "العراق ينهي حالة الإنذار القصوى وينشر قواته في جرف الصخر، فما الذي حدث؟",
       "summary_ar": "أنهت القوات العسكرية والأمنية العراقية حالة الإنذار القصوى من المستوى \"ج\" وعادت إلى أداء واجباتها الاعتيادية.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "d103c2aa2b2a2e80445ede9b",
@@ -154,8 +143,7 @@
       "published_at": "Thu, 19 Nov 2026 14:14:55 GMT",
       "title_ar": "لماذا اختيرت \"شنتشن\" لاستضافة قمة \"أبيك\" واجتماع تاريخي؟",
       "summary_ar": "عقد رؤساء الصين والولايات المتحدة وروسيا قمة تاريخية في منتجع شهير بمدينة \"شنتشن\" على هامش منتدى \"أبيك\".",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "25d043b118adad46fcdfb812",
@@ -167,8 +155,7 @@
       "published_at": "Tue, 24 Nov 2026 10:53:37 GMT",
       "title_ar": "ترامب يواجه انتقادات بعد قوله إنه \"أقنع\" نيفيديا بإعادة تعيين الرئيس التنفيذي جينسن هوانغ",
       "summary_ar": "تعرضت شركة نيفيديا لضغوط من الرئيس ترامب لإعادة تعيين جينسن هوانغ، وقد ساهمت عودته في إضافة تريليون دولار إلى القيمة السوقية لأسهم الشركة.",
-      "model": "gemini-3.6-flash",
-      "rss_category": "السياسة"
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "c2d8990c4b9f1e1199170513",
@@ -180,8 +167,7 @@
       "published_at": "Tue, 24 Nov 2026 07:26:27 GMT",
       "title_ar": "ما الذي تعلمه عودة جينسن هوانغ للرئيس الصيني شي عن ترامب",
       "summary_ar": "إن عودة هوانغ إلى قيادة شركة نيفيديا لا تُعد ضماناً لتخفيف الضغوط عن بكين.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "8a11be66dc0b8ac744134349",
@@ -193,8 +179,7 @@
       "published_at": "Tue, 24 Nov 2026 10:58:51 GMT",
       "title_ar": "أمين عام حلف الناتو يتعهد بالدفاع ضد التهديدات الفضائية بعد تقارير عن قمر صناعي نووي روسي",
       "summary_ar": "ذكرت وسائل إعلام ألمانية أن روسيا تخطط لإطلاق قمر صناعي يحمل رأساً نووياً إلى الفضاء خلال الأسابيع القادمة.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "318e9d12844de6bae5631b6a",
@@ -206,8 +191,7 @@
       "published_at": "Tue, 24 Nov 2026 15:17:28 GMT",
       "title_ar": "ارتفاع كبير في ضحايا الألغام الأرضية في سوريا بعد عامين من الحرب",
       "summary_ar": "تظهر الأرقام أن ما يقرب من 1000 طفل هم من بين القتلى أو المصابين جراء المتفجرات المتبقية من النزاع.",
-      "model": "gemini-3.6-flash",
-      "rss_category": "السياسة"
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "4acc4486706bb1659549a45d",
@@ -219,8 +203,7 @@
       "published_at": "Tue, 24 Nov 2026 05:33:07 GMT",
       "title_ar": "زعيم حزب \"الصراصير\" في الهند يقول إنه مُنع من السفر إلى المملكة المتحدة",
       "summary_ar": "صرح سوراف داس أن سلطات الهجرة في مطار دلهي أبلغته بأنه تم وضع علامة تحذيرية على جواز سفره.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "e8a823548b9b67b06dcb6261",
@@ -232,8 +215,7 @@
       "published_at": "Tue, 24 Nov 2026 15:35:53 GMT",
       "title_ar": "غارة جوية إسرائيلية تقتل رئيس الأمن الداخلي لحركة حماس في غزة",
       "summary_ar": "يعد نعيم أبو نحل، الذي شغل منصبه منذ شهرين، من بين سبعة فلسطينيين قُتلوا وفقاً للتقارير في غارات إسرائيلية يوم الثلاثاء.",
-      "model": "gemini-3.6-flash",
-      "rss_category": "السياسة"
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "1d0e3400ffceba623b703d20",
@@ -245,8 +227,7 @@
       "published_at": "Tue, 24 Nov 2026 11:10:57 GMT",
       "title_ar": "مذكرات البابا فرنسيس تكشف عن ادعاءات برؤيته الشيطان ثلاث مرات",
       "summary_ar": "تزعم مقتطفات منشورة من مذكرات البابا الراحل أن إحدى الرؤى حدثت في شرفة الجوقة أثناء أداء القداس.",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "d5d2228e02af8ab1fc7d70f3",
@@ -258,8 +239,7 @@
       "published_at": "Mon, 23 Nov 2026 21:24:47 GMT",
       "title_ar": "جيزيل بيليكو تشعر بـ \"الإهانة\" بعد إرسال صور عارية لوسائل الإعلام لترويج كتاب",
       "summary_ar": "اعتذر ناشر مقال عن السيطرة القسرية عن \"رسالة إعلامية غير موفقة وغير ملائمة\".",
-      "model": "gemini-3.6-flash",
-      "rss_category": null
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "95409503e917c1fbc22111a1",
@@ -268,8 +248,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
       "original_title": "Car bomb tears through Colombian city wounding more than 20",
       "excerpt": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
-      "published_at": "Tue, 24 Nov 2026 11:45:52 GMT",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 11:45:52 GMT"
     },
     {
       "id": "ff6c6aedbd710a87e341b9d2",
@@ -278,8 +257,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
       "original_title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
       "excerpt": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-      "published_at": "Tue, 24 Nov 2026 10:48:27 GMT",
-      "rss_category": "السياسة"
+      "published_at": "Tue, 24 Nov 2026 10:48:27 GMT"
     },
     {
       "id": "04d463bcde637a48f9a6ca92",
@@ -288,8 +266,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss",
       "original_title": "Russian governor detained in rare criminal case against regional leader",
       "excerpt": "Andrei Chibis, head of Russia's northern Murmansk region, is the first governor to be detained for five years.",
-      "published_at": "Tue, 24 Nov 2026 12:45:43 GMT",
-      "rss_category": "السياسة"
+      "published_at": "Tue, 24 Nov 2026 12:45:43 GMT"
     },
     {
       "id": "1221712236f0eeeaa047ed1e",
@@ -298,8 +275,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
       "original_title": "Iranian authorities flog singer who performed without hijab, lawyers say",
       "excerpt": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
-      "published_at": "Mon, 23 Nov 2026 18:04:20 GMT",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 18:04:20 GMT"
     },
     {
       "id": "b0689cf87ab570a441c88635",
@@ -308,8 +284,7 @@
       "article_url": "https://openai.com/index/introducing-shirudo",
       "original_title": "OpenAI and Cisco introduce Shirudo",
       "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "published_at": "Mon, 23 Nov 2026 21:20:00 GMT",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Mon, 23 Nov 2026 21:20:00 GMT"
     },
     {
       "id": "10878202550bbbf922d1872a",
@@ -318,8 +293,7 @@
       "article_url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "original_title": "Connected intelligence for in-house legal",
       "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "published_at": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 08:00:00 GMT"
     },
     {
       "id": "1259b534687dd8b3171199ff",
@@ -328,8 +302,7 @@
       "article_url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "original_title": "Richpanel helps companies automate 50% of support in 30 days",
       "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "published_at": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Mon, 23 Nov 2026 08:00:00 GMT"
     },
     {
       "id": "1a10f1676d46fc01a909d8ea",
@@ -338,8 +311,7 @@
       "article_url": "https://openai.com/index/perplexity-and-intelligence",
       "original_title": "Perplexity and Intelligence",
       "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "published_at": "Sun, 22 Nov 2026 00:00:00 GMT",
-      "rss_category": null
+      "published_at": "Sun, 22 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "7ad44f990f0c53ef2e2a5377",
@@ -348,8 +320,7 @@
       "article_url": "https://openai.com/index/combatting-adversarial-distillation",
       "original_title": "Combatting adversarial distillation",
       "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "published_at": "Fri, 20 Nov 2026 10:00:00 GMT",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Fri, 20 Nov 2026 10:00:00 GMT"
     },
     {
       "id": "8145fefb47ff1ca9fa5560e6",
@@ -358,8 +329,7 @@
       "article_url": "https://openai.com/business/customer-stories/hebbia",
       "original_title": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "c1a2af93db54bfcf7c217cb7",
@@ -368,8 +338,7 @@
       "article_url": "https://openai.com/index/introducing-medchembench",
       "original_title": "Can AI help scientists identify promising drug candidates?",
       "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "9342dbf934e428aa00c16520",
@@ -378,8 +347,7 @@
       "article_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "original_title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "published_at": "Thu, 19 Nov 2026 08:00:00 GMT",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Thu, 19 Nov 2026 08:00:00 GMT"
     },
     {
       "id": "17b7a2b39f098895a2208f48",
@@ -388,8 +356,7 @@
       "article_url": "https://openai.com/business/learn/pr-scans-demo",
       "original_title": "See PR scans in action",
       "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "rss_category": null
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "da30645137037f0052cd70ab",
@@ -398,8 +365,7 @@
       "article_url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "original_title": "Get started with Daybreak Blue",
       "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "rss_category": null
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "82fe289fe466dcc1d4f71a60",
@@ -408,8 +374,7 @@
       "article_url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "original_title": "Explore the Codex Security Plugin",
       "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "rss_category": null
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "a890a236270cc5e31862345b",
@@ -418,8 +383,7 @@
       "article_url": "https://openai.com/business/learn/deploying-daybreak-red",
       "original_title": "Deploying Daybreak Red",
       "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "rss_category": null
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT"
     },
     {
       "id": "aa014f4b55f462a96af72e8e",
@@ -428,8 +392,7 @@
       "article_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
       "original_title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
       "excerpt": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
-      "published_at": "Tue, 24 Nov 2026 18:58:26 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 18:58:26 +0530"
     },
     {
       "id": "c4ed564253ff3bb566e8a696",
@@ -438,8 +401,7 @@
       "article_url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
       "original_title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
       "excerpt": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
-      "published_at": "Tue, 24 Nov 2026 18:58:21 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 18:58:21 +0530"
     },
     {
       "id": "88d6d55f0b06ce11ebd6ca5c",
@@ -448,8 +410,7 @@
       "article_url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
       "original_title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "excerpt": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
-      "published_at": "Tue, 24 Nov 2026 18:12:09 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 18:12:09 +0530"
     },
     {
       "id": "372382395c6e6dd9c78dc46f",
@@ -458,8 +419,7 @@
       "article_url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
       "original_title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
       "excerpt": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked",
-      "published_at": "Tue, 24 Nov 2026 17:32:00 +0530",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 17:32:00 +0530"
     },
     {
       "id": "446e0a68acf810671a62145c",
@@ -468,8 +428,7 @@
       "article_url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
       "original_title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
       "excerpt": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations, repeated checks, and unnecessary escalations continue to drain resources. As",
-      "published_at": "Tue, 24 Nov 2026 17:31:54 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 17:31:54 +0530"
     },
     {
       "id": "47c6e40ac66c9d3b81c5f40c",
@@ -478,8 +437,7 @@
       "article_url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
       "original_title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
       "excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM,\" NSM said. \"It is still uncertain how",
-      "published_at": "Tue, 24 Nov 2026 16:14:49 +0530",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 16:14:49 +0530"
     },
     {
       "id": "63045753ac0089989528c35e",
@@ -488,8 +446,7 @@
       "article_url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
       "original_title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
       "excerpt": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released",
-      "published_at": "Tue, 24 Nov 2026 14:04:20 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 14:04:20 +0530"
     },
     {
       "id": "b0d72916ebeceea8cb41017b",
@@ -498,8 +455,7 @@
       "article_url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
       "original_title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
       "excerpt": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches,\" OpenAI said in a post on X. The AI upstart called the initiative a",
-      "published_at": "Tue, 24 Nov 2026 11:32:57 +0530",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Tue, 24 Nov 2026 11:32:57 +0530"
     },
     {
       "id": "d70285cdacc0c3a7734f4212",
@@ -508,8 +464,7 @@
       "article_url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
       "original_title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
       "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
-      "published_at": "Tue, 24 Nov 2026 11:32:45 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 11:32:45 +0530"
     },
     {
       "id": "5495a06dee26529fd91c294d",
@@ -518,8 +473,7 @@
       "article_url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
       "original_title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
       "excerpt": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant \"implements various tricks to hide itself from security tools,\"",
-      "published_at": "Mon, 23 Nov 2026 23:15:15 +0530",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 23:15:15 +0530"
     },
     {
       "id": "a75fd36abba0068884a2947b",
@@ -528,8 +482,7 @@
       "article_url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
       "original_title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
       "excerpt": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely",
-      "published_at": "Mon, 23 Nov 2026 20:40:48 +0530",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 20:40:48 +0530"
     },
     {
       "id": "fa4289a3f22edc8ceac6282b",
@@ -538,8 +491,7 @@
       "article_url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
       "original_title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
       "excerpt": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
-      "published_at": "Mon, 23 Nov 2026 18:52:20 +0530",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Mon, 23 Nov 2026 18:52:20 +0530"
     },
     {
       "id": "66f282829dbe563653c486e7",
@@ -548,8 +500,7 @@
       "article_url": "https://arstechnica.com/science/2026/11/homo-erectus-lived-in-the-rainforest-alongside-denisovans/",
       "original_title": "Homo erectus lived in the rainforest alongside Denisovans",
       "excerpt": "You can learn a surprising amount from a few loose teeth.",
-      "published_at": "Tue, 24 Nov 2026 16:01:19 +0000",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 16:01:19 +0000"
     },
     {
       "id": "1881b895e965b0335c1d20e5",
@@ -558,8 +509,7 @@
       "article_url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
       "original_title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
       "excerpt": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
-      "published_at": "Tue, 24 Nov 2026 14:56:50 +0000",
-      "rss_category": "التقنية"
+      "published_at": "Tue, 24 Nov 2026 14:56:50 +0000"
     },
     {
       "id": "e97dd56116f464d70dd3a6d3",
@@ -568,8 +518,7 @@
       "article_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
       "original_title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
       "excerpt": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-      "published_at": "Tue, 24 Nov 2026 12:30:05 +0000",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Tue, 24 Nov 2026 12:30:05 +0000"
     },
     {
       "id": "cdfc9e5c7e2cd8a175c53b10",
@@ -578,8 +527,7 @@
       "article_url": "https://arstechnica.com/gadgets/2026/11/one-terminal-command-gave-my-forgotten-android-device-a-desk-job/",
       "original_title": "One terminal command gave my forgotten Android device a desk job",
       "excerpt": "The free, open source PhoneBox dashboard puts old Android screens back to work.",
-      "published_at": "Tue, 24 Nov 2026 12:15:38 +0000",
-      "rss_category": "التقنية"
+      "published_at": "Tue, 24 Nov 2026 12:15:38 +0000"
     },
     {
       "id": "2bc78ae7f9f73ae17c9e9244",
@@ -588,8 +536,7 @@
       "article_url": "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation/",
       "original_title": "Ukraine sinks Russian warship, strikes cargo ships from Mediterranean to Baltic",
       "excerpt": "Russian missile corvette latest casualty as Ukraine strikes back in war at sea.",
-      "published_at": "Tue, 24 Nov 2026 12:00:57 +0000",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 12:00:57 +0000"
     },
     {
       "id": "f2f0a76fa1d8608cd1d62061",
@@ -598,8 +545,7 @@
       "article_url": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
       "original_title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
       "excerpt": "The Army said on Sunday that it would carry out the detonation on Wednesday.",
-      "published_at": "Mon, 23 Nov 2026 21:58:34 +0000",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 21:58:34 +0000"
     },
     {
       "id": "f323d7562d6653aad531a943",
@@ -608,8 +554,7 @@
       "article_url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
       "original_title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
       "excerpt": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
-      "published_at": "Mon, 23 Nov 2026 21:30:44 +0000",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Mon, 23 Nov 2026 21:30:44 +0000"
     },
     {
       "id": "bddfaf1afe084aff42be0bdc",
@@ -618,8 +563,7 @@
       "article_url": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
       "original_title": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
       "excerpt": "\"I would ask you to please reach out to Roscosmos directly.\"",
-      "published_at": "Mon, 23 Nov 2026 20:34:51 +0000",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 20:34:51 +0000"
     },
     {
       "id": "847433dec9bee6ee0c279ea4",
@@ -628,8 +572,7 @@
       "article_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
       "original_title": "Surveillance pricing uses our personal data to make us pay more",
       "excerpt": "Personalized pricing can mean unfair, and even biased, prices.",
-      "published_at": "Mon, 23 Nov 2026 20:11:43 +0000",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 20:11:43 +0000"
     },
     {
       "id": "14d7d654182e53eccf168f7b",
@@ -638,8 +581,7 @@
       "article_url": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
       "original_title": "Amazon fights Delivery Protection Act by putting stickers on its packages",
       "excerpt": "Amazon now uses its packages for political purposes.",
-      "published_at": "Mon, 23 Nov 2026 19:38:13 +0000",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 19:38:13 +0000"
     },
     {
       "id": "4efb0bcac54b804e689c70f2",
@@ -648,8 +590,7 @@
       "article_url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
       "original_title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
       "excerpt": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
-      "published_at": "Mon, 23 Nov 2026 19:28:30 +0000",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 19:28:30 +0000"
     },
     {
       "id": "4d311cc43bc289416967e175",
@@ -658,8 +599,7 @@
       "article_url": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
       "original_title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
       "excerpt": "\"All of you have lived stolen lives. But now you must give them back.\"",
-      "published_at": "Mon, 23 Nov 2026 15:55:12 +0000",
-      "rss_category": null
+      "published_at": "Mon, 23 Nov 2026 15:55:12 +0000"
     },
     {
       "id": "598f8a888796a28ea9fbd723",
@@ -668,8 +608,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/airpods-pro-3-best-black-friday-price/",
       "original_title": "PSA: AirPods Pro 3 are back in stock for $149 ($100 off)",
       "excerpt": "Update November 24, 2026 : AirPods Pro 3 are back in stock after selling out after dropping down to their new all-time low price of $149 . Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with an incredible $100 discount to $149 shipped – their best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up today with the first discount on Apple’s brand new OLED iPad mini , the 2026 AirPods Max 2 down again at $130 off , even deeper discounts on the current-generation Apple Watch SE 3 from $179 , and now, an even lower price on the world’s greatest buds. The best Black Friday Apple deals live right now: AirPods Pro 3 $149 (Reg. $249) – Now even lower Apple Watch Series 12 from $299 (Reg. $399) – All-time low M5 MacBook Air 16GB/512GB $1,999 (Reg. $1,499) New OLED iPad mini (A20 Pro) $599 (Reg. $699) – All-time low Apple Pencil (USB-C) $49 (Reg. $79) 1-pack AirTag 2 $18 (Reg. $29) 2026 Apple Polishing Cloth $9 Prime shipped (Back in-stock) more…",
-      "published_at": "Tue, 24 Nov 2026 15:39:45 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 15:39:45 +0000"
     },
     {
       "id": "4b123f21d4d4bcd4e4b70698",
@@ -678,8 +617,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/heres-everything-new-apple-tv-has-coming-in-december-2/",
       "original_title": "Here’s everything new Apple TV has coming in December",
       "excerpt": "Apple TV ( now $6.99/month for Black Friday ) is about to bring back a beloved comedy from Ted Lasso and Shrinking’s creator, plus a new holiday special, documentary event series, and more. Here’s everything new coming to Apple TV in December. more…",
-      "published_at": "Tue, 24 Nov 2026 15:37:47 +0000",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 15:37:47 +0000"
     },
     {
       "id": "17a3d1dca82c88f036d8a0d5",
@@ -688,8 +626,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/ipad-air-vs-ipad-pro-buying-guide/",
       "original_title": "iPad Air vs iPad Pro: Which should you buy?",
       "excerpt": "Apple’s iPad lineup is incredibly strong, and two standout options are the iPad Air and iPad Pro. If you’re trying to decide whether the iPad Pro is worth the extra cost this holiday season, here’s everything you need to know. 11-inch M5 iPad Pro: Up to $300 off 13-inch M5 iPad Pro: Up to $350 off 11-inch iPad Air: Up to $100 off 13-inch iPad Air: Up to $100 off Bonus pick : The all-new iPad mini is up to $100 off for Black Friday as well. more…",
-      "published_at": "Tue, 24 Nov 2026 15:24:10 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 15:24:10 +0000"
     },
     {
       "id": "6583733fa08938a0bbb7af0e",
@@ -698,8 +635,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/ios-27-adds-new-messages-app-setting-i-instantly-started-using/",
       "original_title": "iOS 27 adds new Messages app setting I instantly started using",
       "excerpt": "iOS 27 brought several new features to the Messages app, including a setting that’s long been a popular request: the ability to customize or turn off the audio button. Here’s how to use it. more…",
-      "published_at": "Tue, 24 Nov 2026 15:05:11 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 15:05:11 +0000"
     },
     {
       "id": "243a7a55ad36bef1a9fb7575",
@@ -708,8 +644,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/best-mac-black-friday-deals/",
       "original_title": "The best Mac Black Friday deals: $300 off MacBook Air, $220 off M6, PROLED, more",
       "excerpt": "We are moving into Day 6 of the massive Amazon Black Friday sale with many of the best Apple deals of the year. Alongside this 13-inch M5 iPad Pro at $350 off and the new OLED iPad mini at $100 off , we are also catching some even lower MacBook deals headlined by the new M6 Pro at $220 off (All-time low). Those deals join the M5 MacBook Air at up to $300 off , MacBook Neo starting down at $649 , the latest Mac mini from $779 , and the first discounts on the latest M6 iMac at up to $110 off. All of that and more is waiting in detail below; just make sure you grab some 2026 Apple Polishing Cloths at $9 Prime shipped before they sell out again. more…",
-      "published_at": "Tue, 24 Nov 2026 14:34:14 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 14:34:14 +0000"
     },
     {
       "id": "1d1ef54d613131b52c168fc3",
@@ -718,8 +653,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/",
       "original_title": "Muse safety debate continues as the AI agent rolls out in the UK",
       "excerpt": "The debate over the wisdom and safety of using Meta’s Muse AI agent continues as the app rolls out in the UK. It follows a warning by a number of regulatory bodies about the potential risks of AI agents … more…",
-      "published_at": "Tue, 24 Nov 2026 13:52:23 +0000",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Tue, 24 Nov 2026 13:52:23 +0000"
     },
     {
       "id": "ee7c5db7bbacb7f4b87f7838",
@@ -728,8 +662,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/iphone-handoff-carriers-support-ios-27/",
       "original_title": "iPhone Handoff: Here’s the latest on carrier availability and pricing",
       "excerpt": "iPhone Handoff is a new feature in iOS 27 that lets you use the same phone number across two different iPhones. However, the feature requires carrier support, so it isn’t available to everyone. Here are the carriers that currently support iPhone Handoff and those that have promised support. 9to5Mac is sponsored by Sony : Score Sony’s INZONE noise-canceling earbuds for 38% off . These deliver immersive 360 Spatial Sound, active noise canceling, low-latency wireless connectivity, and much more. more…",
-      "published_at": "Tue, 24 Nov 2026 13:40:56 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 13:40:56 +0000"
     },
     {
       "id": "321b8334cb9b103ecf344ce9",
@@ -738,8 +671,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/cad-images-suggest-iphone-18e-will-have-an-odd-new-camera-design/",
       "original_title": "CAD images suggest iPhone 18e will have an odd new camera design",
       "excerpt": "CAD images of the iPhone 18e , said to come from a previously reliable source, have shown a rather odd new design for the camera bump. If accurate, it would represent a big change from its predecessor, which simply has a single lens protruding without a surrounding bump or plateau … more…",
-      "published_at": "Tue, 24 Nov 2026 13:19:08 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 13:19:08 +0000"
     },
     {
       "id": "c7fa8a03a54f7c78e5fa71aa",
@@ -748,8 +680,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/times-top-100-photos-of-2026-list-includes-a-shot-taken-on-iphone-18-pro/",
       "original_title": "TIME’s Top 100 Photos of 2026 list includes a shot taken on iPhone 18 Pro",
       "excerpt": "In September, Apple held a photography exhibition in New York City to show off the iPhone 18 Pro camera. Now, an image of the Bugaboo Mountains from that exhibit, shot by photographer Jimmy Chin, is included in TIME’s Top 100 Photos . more…",
-      "published_at": "Tue, 24 Nov 2026 12:18:30 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 12:18:30 +0000"
     },
     {
       "id": "b9069b9296280b261d0b48ac",
@@ -758,8 +689,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/two-billion-credentials-publicly-exposed-including-everything-needed-for-identity-theft/",
       "original_title": "Two billion credentials publicly exposed, including everything needed for identity theft",
       "excerpt": "A security researcher has discovered a publicly exposed database containing approximately two billion credentials. The database was neither password-protected nor encrypted. The scariest part of it is around 400,000 documents came from separate folders for individual victims, creating a detailed profile with all the personal data needed to “own that person” … more…",
-      "published_at": "Tue, 24 Nov 2026 11:59:25 +0000",
-      "rss_category": "الأمن السيبراني"
+      "published_at": "Tue, 24 Nov 2026 11:59:25 +0000"
     },
     {
       "id": "0760593f50f414a07c473ac9",
@@ -768,8 +698,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/smplify-wants-ai-agents-to-manage-your-macs-with-a-human-approving-every-change/",
       "original_title": "Apple @ Work Podcast: Smplify wants AI agents to manage your Macs, with a human approving every change.",
       "excerpt": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage &amp; protect Apple devices at work. Over 45,000 organizations trust Mosyle to make millions of Apple devices work-ready with no effort and at an affordable cost. Request your EXTENDED TRIAL today and understand why Mosyle is everything you need to work with Apple . In this episode of Apple @ Work, Preetham Gurram and Ben Greiner, co-founders of Smplify , join the show to talk about managing devices through AI agents, approval gates, and audit logs for every change, what MSPs need from device management, and why they’re building an API-first control plane instead of another IT console. more…",
-      "published_at": "Tue, 24 Nov 2026 11:58:00 +0000",
-      "rss_category": "الذكاء الاصطناعي"
+      "published_at": "Tue, 24 Nov 2026 11:58:00 +0000"
     },
     {
       "id": "21e36e55e6624c4296f6e3aa",
@@ -778,8 +707,7 @@
       "article_url": "https://9to5mac.com/2026/11/23/these-are-my-two-must-have-iphone-duo-accessories/",
       "original_title": "These are my two must-have iPhone Duo accessories",
       "excerpt": "If you’re an iPhone Duo user, two must-have Apple accessories are at all-time low prices today. These are great additions to any iPhone Duo setup: Apple Pencil (USB-C) $49 (Reg. $79) Apple 40W Dynamic Power Adapter with 60W Max $29 (Reg. $39) more…",
-      "published_at": "Tue, 24 Nov 2026 01:30:09 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 01:30:09 +0000"
     },
     {
       "id": "d153a6cb5c99a964a2e94e2b",
@@ -788,8 +716,7 @@
       "article_url": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
       "original_title": "NASA may get $2 billion boost as White House seeks to accelerate Artemis",
       "excerpt": "\"Without this funding, activities would be delayed.\"",
-      "published_at": "Tue, 24 Nov 2026 16:12:46 +0000",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 16:12:46 +0000"
     },
     {
       "id": "735f0cdcb5707bf3f0431baa",
@@ -798,8 +725,7 @@
       "article_url": "https://9to5mac.com/2026/11/24/things-3-25-update-brings-new-touch-features-to-the-macbook-pro/",
       "original_title": "Things 3.25 update brings new touch features to the MacBook Pro",
       "excerpt": "Cultured Code is bringing swipe gestures to Things on Apple’s touchscreen MacBook Pro . Version 3.25 builds on the task manager’s basic touch support so you can schedule a to-do with a swipe or select several tasks with two fingers and drag them all at once. more…",
-      "published_at": "Tue, 24 Nov 2026 16:00:00 +0000",
-      "rss_category": "أبل"
+      "published_at": "Tue, 24 Nov 2026 16:00:00 +0000"
     },
     {
       "id": "bbc36b6f5aeac58a23d49a49",
@@ -808,8 +734,7 @@
       "article_url": "https://www.bbc.com/arabic/articles/cwvg28p9emp0o?at_medium=RSS&at_campaign=rss",
       "original_title": "\"غارات مكثفة\" على الحُديدة في اليمن، والحوثيون يهددون باستهداف جدة وجميع الموانئ السعودية",
       "excerpt": "التحالف الذي تقوده السعودية في اليمن يطالب بإخلاء ميناء الحُديدة، والحكومة اليمنية تؤكد أن مسلحي جماعة أنصار الله الحوثية يقفون على بعد نحو 60 كيلومتراً من مدينة عدن، مقر الحكومة اليمنية المعترف بها دوليا.",
-      "published_at": "Wed, 25 Nov 2026 02:48:45 GMT",
-      "rss_category": "السياسة"
+      "published_at": "Wed, 25 Nov 2026 02:48:45 GMT"
     },
     {
       "id": "0a419fe189d613aaa8766540",
@@ -823,8 +748,7 @@
       "summary_ar": "تناول لمسألة الأم النرجسية ولماذا يبدو النقاش حولها كأنه مرادف للعقوق والجحود.",
       "detailed_ar": "يطرح المقال تساؤلاً حول أسباب ظهور الحديث عن الأم النرجسية كأنه مرادف للعقوق والجحود في المجتمع، مسلطاً الضوء على حقيقة تُعد مسكوتاً عنها بحسب المقتطف المقدم.",
       "content_basis": "rss_excerpt",
-      "model": "gemini-3.5-flash-lite",
-      "rss_category": null
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "8d827f6fa7627b331a2e595e",
@@ -838,8 +762,7 @@
       "summary_ar": "أدى فوز ممثلة بورتوريكو إلى إسدال الستار على نسخة استثنائية من المسابقة شهدت جدلاً سياسياً واجتماعياً واسعاً إلى جانب المنافسة على اللقب، وذلك بعد خروج المتسابقات العربيات مبكراً.",
       "detailed_ar": "أسدل فوز ممثلة بورتوريكو بالتاج على أرضها الستار على نسخة استثنائية من مسابقة ملكة جمال الكون، والتي شهدت إلى جانب المنافسة على اللقب جدلاً سياسياً واجتماعياً واسعاً، وجاء ذلك بعد خروج مبكر للمتسابقات العربيات من المنافسة.",
       "content_basis": "rss_excerpt",
-      "model": "gemini-3.5-flash-lite",
-      "rss_category": null
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "7f2f2e220215d8990766bbe9",
@@ -848,8 +771,7 @@
       "article_url": "https://www.bbc.com/arabic/articles/ckeq4799g8zeo?at_medium=RSS&at_campaign=rss",
       "original_title": "إسرائيل تتهم طهران بتطوير أسلحة كيميائية، والجيش الإيراني يُسقط مسيّرتين أمريكيتين في هرمز",
       "excerpt": "إسرائيل تتهم تلوّح بضربة استباقية لطهران، وإيران تعلن إسقاط مسيّرتين أمريكيتين في مضيق هرمز، وسط تصعيد بحري في المنطقة.",
-      "published_at": "Wed, 25 Nov 2026 00:22:14 GMT",
-      "rss_category": "السياسة"
+      "published_at": "Wed, 25 Nov 2026 00:22:14 GMT"
     },
     {
       "id": "b7481ab6701bc18bd1cdaeae",
@@ -858,8 +780,7 @@
       "article_url": "https://www.bbc.com/arabic/articles/cmkgdjxzzx7ko?at_medium=RSS&at_campaign=rss",
       "original_title": "البابا فرنسيس في مذكراته: \"رأيت الشيطان ثلاث مرات\"",
       "excerpt": "البابا فرنسيس يكشف في مذكراته أنه \"رأي الشيطان ثلاث مرات\" كما رأى \"أبواب الجحيم\"، فما القصة؟",
-      "published_at": "Tue, 24 Nov 2026 20:58:04 GMT",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 20:58:04 GMT"
     },
     {
       "id": "9b1641860d3ee1ae377cdf4f",
@@ -868,8 +789,7 @@
       "article_url": "https://www.bbc.com/arabic/articles/cqe87zdxj0ejo?at_medium=RSS&at_campaign=rss",
       "original_title": "ماذا تكشف هجمات بنغازي عن دور روسيا وأوكرانيا في ليبيا؟",
       "excerpt": "أعاد إعلان أوكرانيا استهداف سفينتين روسيتين في بنغازي وقبالة سواحلها تسليط الضوء على الوجود العسكري الروسي في شرقي ليبيا، والتقارير عن وجود عناصر عسكرية أوكرانية في غربه، ويستعرض التقرير طبيعة الأنشطة العسكرية للبلدين، وأهمية ليبيا للعمليات الروسية في البحر المتوسط ومنطقة الساحل الأفريقي، وكيف أججت الهجمات التوتر بين الحكومتين المتنافستين، فضلاً عن المخاطر التي قد تشكلها على الملاحة التجارية.",
-      "published_at": "Tue, 24 Nov 2026 19:44:50 GMT",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 19:44:50 GMT"
     },
     {
       "id": "3657971a4ba62349042bc05d",
@@ -878,8 +798,7 @@
       "article_url": "https://www.bbc.com/arabic/articles/c68x0ve7wqg1o?at_medium=RSS&at_campaign=rss",
       "original_title": "هل عقلك مُرهق بسبب كثرة المهام العالقة؟ 5 خطوات بسيطة لاستعادة راحتك الذهنية",
       "excerpt": "ثرة المهام العالقة لا تُرهقنا فحسب، بل تظل حاضرة في أذهاننا وتستنزف جزءاً من طاقتنا حتى بعد انتهاء يوم العمل. لكن بخطوات بسيطة يمكننا أن نخفف هذا العبء الذهني، إليك بعض الخطوات.",
-      "published_at": "Tue, 24 Nov 2026 18:05:50 GMT",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 18:05:50 GMT"
     },
     {
       "id": "2a1422ea57bb08bb754c1468",
@@ -889,7 +808,11 @@
       "original_title": "US attorney general dodges questions about Nvidia investigation",
       "excerpt": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
       "published_at": "Wed, 25 Nov 2026 03:44:07 GMT",
-      "rss_category": "التقنية"
+      "title_ar": "المدعي العام الأمريكي يتجنب الإجابة عن أسئلة بشأن التحقيق حول شركة إنفيديا",
+      "summary_ar": "تجنب المدعي العام الأمريكي الأسئلة حول التحقيق المتعلق بشركة إنفيديا، وسط هبوط أسهم الشركة بنسبة 7% ومطالبات من المشرعين بإيضاحات حول دور الرئيس دونالد ترامب في إعادة هوانغ.",
+      "detailed_ar": "تجنب المدعي العام الأمريكي الإجابة عن الأسئلة المتعلقة بالتحقيق الجاري حول شركة إنفيديا (Nvidia). وتزامن ذلك مع تراجع أسعار أسهم الشركة بنسبة 7%، في وقت يطالب فيه المشرعون بالحصول على إجابات وتوضيحات بشأن مدى مشاركة وتورط الرئيس دونالد ترامب في إعادة هوانغ إلى منصبه.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "4980e212d8f2fd4177de2298",
@@ -898,8 +821,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
       "original_title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
       "excerpt": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
-      "published_at": "Wed, 25 Nov 2026 00:56:51 GMT",
-      "rss_category": "السياسة"
+      "published_at": "Wed, 25 Nov 2026 00:56:51 GMT"
     },
     {
       "id": "d28edd583d67403a26f23b52",
@@ -913,8 +835,7 @@
       "summary_ar": "مغادرة كيلمار أبريغو غارسيا الولايات المتحدة متوجهاً إلى إسبانيا، خاتماً بذلك معركة الترحيل المتعلقة بالرئيس دونالد ترامب.",
       "detailed_ar": "يغادر كيلمار أبريغو غارسيا الولايات المتحدة متوجهاً إلى إسبانيا، لتنتهي بذلك معركة ترحيله التي أثارت جدلاً واسعاً. ويُذكر أن ترحيله السابق إلى السلفادور وعودته إلى الولايات المتحدة كانا قد شكلا نقطة اشتعال رئيسية في النقاش الدائر حول أجندة الهجرة الخاصة بالرئيس دونالد ترامب.",
       "content_basis": "rss_excerpt",
-      "model": "gemini-3.5-flash-lite",
-      "rss_category": "السياسة"
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "762ce6d7fedd6d19f353495e",
@@ -923,8 +844,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
       "original_title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
       "excerpt": "The verdict follows a months-long trial in New York.",
-      "published_at": "Wed, 25 Nov 2026 02:59:27 GMT",
-      "rss_category": "التقنية"
+      "published_at": "Wed, 25 Nov 2026 02:59:27 GMT"
     },
     {
       "id": "931118a83c11690ed2611032",
@@ -933,8 +853,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
       "original_title": "Thomas Markle indicted in US for possessing child sex abuse images",
       "excerpt": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
-      "published_at": "Wed, 25 Nov 2026 01:40:42 GMT",
-      "rss_category": null
+      "published_at": "Wed, 25 Nov 2026 01:40:42 GMT"
     },
     {
       "id": "728942263f493f659fb2616e",
@@ -943,8 +862,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
       "original_title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
       "excerpt": "A new report has testimonies from hundreds of defectors who say they were persecuted because of their faith.",
-      "published_at": "Tue, 24 Nov 2026 23:03:59 GMT",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 23:03:59 GMT"
     },
     {
       "id": "803932ad076bb2b61b1ca154",
@@ -953,8 +871,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
       "original_title": "China-linked network using AI fakes to smear Taiwan election candidates, BBC Verify finds",
       "excerpt": "The network attacked key figures in the ruling DPP, including President Lai and mayoral candidate Shen.",
-      "published_at": "Tue, 24 Nov 2026 23:05:11 GMT",
-      "rss_category": "السياسة"
+      "published_at": "Tue, 24 Nov 2026 23:05:11 GMT"
     },
     {
       "id": "04d7a75d17591af0239d4740",
@@ -963,8 +880,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
       "original_title": "The rising cost of putting food on the table in India",
       "excerpt": "India's food inflation is broadening, squeezing household budgets.",
-      "published_at": "Wed, 25 Nov 2026 01:02:13 GMT",
-      "rss_category": null
+      "published_at": "Wed, 25 Nov 2026 01:02:13 GMT"
     },
     {
       "id": "03d1b8471517e4668e7b03b8",
@@ -973,8 +889,7 @@
       "article_url": "https://www.bbc.co.uk/news/articles/cmglrz462nn6o?at_medium=RSS&at_campaign=rss",
       "original_title": "Nigerian monarch, 92, suspended after sexual assault claims",
       "excerpt": "The Emir of Daura is one of Nigeria's best-known monarchs, with politicians often trying to gain his support.",
-      "published_at": "Tue, 24 Nov 2026 19:10:31 GMT",
-      "rss_category": null
+      "published_at": "Tue, 24 Nov 2026 19:10:31 GMT"
     },
     {
       "id": "6cd45e2d2b78eb32e04a91d6",
@@ -988,8 +903,7 @@
       "summary_ar": "تدرس المهمة كويكباً تم تغيير مساره عمداً بواسطة مركبة فضائية اصطدمت به.",
       "detailed_ar": "تدرس المهمة كويكباً تم تغيير مساره عمداً نتيجة اصطدام مركبة فضائية به، وذلك بعد مرور أربع سنوات على وقوع الاصطدام الضخم، حيث عادت مركبة فضائية في الوقت الحالي لتقييم حجم الأضرار الناتجة عن ذلك.",
       "content_basis": "rss_excerpt",
-      "model": "gemini-3.5-flash-lite",
-      "rss_category": null
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "f07a2bf7861aede70545eb1f",
@@ -1003,8 +917,7 @@
       "summary_ar": "ارتفعت أسعار المساكن في الاتحاد الأوروبي بنسبة 60% خلال عقد، ويعجز شخص من كل عشرة عن دفع الإيجار أو التمويل العقاري.",
       "detailed_ar": "وفقاً لمجلس الاتحاد الأوروبي، شهدت أسعار المساكن في الاتحاد الأوروبي ارتفاعاً متوسطاً بنسبة 60 في المئة على مدار السنوات العشر الماضية. كما أشارت المعطيات إلى أن شخصاً واحداً من كل عشرة أشخاص يعجز عن دفع الإيجار أو أقساط التمويل العقاري في موعدها المحدد، وهو ما يعكس اتساع نطاق مشكلة أزمة الإسكان العالمية.",
       "content_basis": "rss_excerpt",
-      "model": "gemini-3.5-flash-lite",
-      "rss_category": null
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "6c86aca0d2120a2e2ef54b61",
@@ -1018,8 +931,7 @@
       "summary_ar": "حُنوتي يدفن 18 ألف شخص في 3 أعوام وسط أعباء ثقيلة وشح في أبسط مستلزمات الدفن.",
       "detailed_ar": "تناول التقرير قصة حُنوتي قام بدفن 18 ألف شخص في غضون 3 أعوام، مبيناً أن العبء لم يقتصر فقط على ضخامة أعداد المتوفين، بل امتد ليشمل شح أبسط المستلزمات اللازمة لدفن الموتى.",
       "content_basis": "rss_excerpt",
-      "model": "gemini-3.5-flash-lite",
-      "rss_category": null
+      "model": "gemini-3.5-flash-lite"
     },
     {
       "id": "2d4be277456770f9a64ab839",
@@ -1029,7 +941,11 @@
       "original_title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
       "excerpt": "The son of Zimbabwe's late former President Robert Mugabe has faced multiple legal troubles in the recent past.",
       "published_at": "Wed, 25 Nov 2026 07:26:54 GMT",
-      "rss_category": null
+      "title_ar": "زيمبابوي تصدر مذكرة اعتقال بحق نجل روبرت موغابي بسبب تخلفه عن جلسة للمحكمة",
+      "summary_ar": "أصدرت السلطات في زيمبابوي مذكرة اعتقال بحق نجل الرئيس الراحل روبرت موغابي إثر تغيبه عن موعد محاكمته، بعد مواجهته قضايا قانونية متعددة مؤخراً.",
+      "detailed_ar": "أصدرت زيمبابوي مذكرة اعتقال بحق نجل الرئيس السابق الراحل روبرت موغابي، وذلك بسبب عدم حضوره في موعد المحكمة المحدد له. وأفاد التقرير بأن نجل موغابي قد واجه مشاكل ومتاعب قانونية متعددة في الآونة الأخيرة.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.6-flash"
     }
   ]
 }

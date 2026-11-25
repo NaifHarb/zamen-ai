@@ -4,7 +4,7 @@ const SHELL = [
   './icon-180.png', './icon-192.png', './icon-512.png',
   './fonts/plex-ar-regular.woff2', './fonts/plex-ar-semibold.woff2', './fonts/naskh-ar.woff2'
 ];
-const DATA = ['news', 'sheets-news', 'images', 'licensed-articles'].map(name => './data/' + name + '.json');
+const DATA = ['news', 'sheets-news', 'images', 'licensed-articles', 'rss-classifications'].map(name => './data/' + name + '.json');
 const scopedURL = path => new URL(path, self.registration.scope).href;
 const shellURLs = new Set(SHELL.map(scopedURL));
 const dataURLs = new Set(DATA.map(scopedURL));
