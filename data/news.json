@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:42:09.456240+00:00",
+  "updated_at": "2026-11-25T09:53:59.766124+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -807,7 +807,12 @@
       "article_url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
       "original_title": "US attorney general dodges questions about Nvidia investigation",
       "excerpt": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-      "published_at": "Wed, 25 Nov 2026 03:44:07 GMT"
+      "published_at": "Wed, 25 Nov 2026 03:44:07 GMT",
+      "title_ar": "المدعي العام الأمريكي يتجنب الإجابة عن أسئلة بشأن التحقيق حول شركة إنفيديا",
+      "summary_ar": "تجنب المدعي العام الأمريكي الأسئلة حول التحقيق المتعلق بشركة إنفيديا، وسط هبوط أسهم الشركة بنسبة 7% ومطالبات من المشرعين بإيضاحات حول دور الرئيس دونالد ترامب في إعادة هوانغ.",
+      "detailed_ar": "تجنب المدعي العام الأمريكي الإجابة عن الأسئلة المتعلقة بالتحقيق الجاري حول شركة إنفيديا (Nvidia). وتزامن ذلك مع تراجع أسعار أسهم الشركة بنسبة 7%، في وقت يطالب فيه المشرعون بالحصول على إجابات وتوضيحات بشأن مدى مشاركة وتورط الرئيس دونالد ترامب في إعادة هوانغ إلى منصبه.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.6-flash"
     },
     {
       "id": "4980e212d8f2fd4177de2298",
@@ -935,7 +940,12 @@
       "article_url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
       "original_title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
       "excerpt": "The son of Zimbabwe's late former President Robert Mugabe has faced multiple legal troubles in the recent past.",
-      "published_at": "Wed, 25 Nov 2026 07:26:54 GMT"
+      "published_at": "Wed, 25 Nov 2026 07:26:54 GMT",
+      "title_ar": "زيمبابوي تصدر مذكرة اعتقال بحق نجل روبرت موغابي بسبب تخلفه عن جلسة للمحكمة",
+      "summary_ar": "أصدرت السلطات في زيمبابوي مذكرة اعتقال بحق نجل الرئيس الراحل روبرت موغابي إثر تغيبه عن موعد محاكمته، بعد مواجهته قضايا قانونية متعددة مؤخراً.",
+      "detailed_ar": "أصدرت زيمبابوي مذكرة اعتقال بحق نجل الرئيس السابق الراحل روبرت موغابي، وذلك بسبب عدم حضوره في موعد المحكمة المحدد له. وأفاد التقرير بأن نجل موغابي قد واجه مشاكل ومتاعب قانونية متعددة في الآونة الأخيرة.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.6-flash"
     }
   ]
 }
