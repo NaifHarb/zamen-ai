@@ -592,9 +592,31 @@ function renderFeed(announceCount = true) {
     headlines.add(headline);
     unique.push(story);
   }
-  const grid = element('div', '', 'news-grid unified-feed');
-  grid.append(...unique.map(story => card(story, 'tile')));
-  target.append(grid);
+  const modes = [['grid','شبكة'],['list','قائمة'],['expanded','موسّع']];
+  let mode = read('zamen-feed-view','grid');
+  if (!modes.some(([key]) => key === mode)) mode = 'grid';
+  const controls = element('div','','feed-view-controls');
+  controls.setAttribute('role','group');
+  controls.setAttribute('aria-label','طريقة عرض الأخبار');
+  const lead = leadStory(unique);
+  const hero = card(lead,'featured');
+  hero.querySelector('.tag').append(element('span',' · اختيار آلي','selection-note'));
+  const grid = element('div','','news-grid unified-feed view-'+mode);
+  grid.append(...unique.filter(story=>story!==lead).map(story=>card(story,'tile')));
+  for (const [key,label] of modes) {
+    const control = button(label);
+    control.dataset.view = key;
+    control.setAttribute('aria-pressed',String(key===mode));
+    control.onclick = () => {
+      mode=key;
+      save('zamen-feed-view',key);
+      grid.className='news-grid unified-feed view-'+key;
+      for(const b of controls.querySelectorAll('button')) b.setAttribute('aria-pressed',String(b.dataset.view===key));
+    };
+    controls.append(control);
+  }
+  target.append(controls,hero);
+  if(unique.length>1) target.append(element('h2','آخر الأخبار','unified-heading'),grid);
   $('count').textContent = number.format(unique.length) + ' خبر';
 }
 
