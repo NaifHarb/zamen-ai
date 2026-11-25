@@ -9,14 +9,23 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="preload" href="fonts/naskh-ar.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/plex-ar-semibold.woff2" as="font" type="font/woff2" crossorigin>
   <script>
     try {
       const theme = JSON.parse(localStorage.getItem('zamen-dark'));
       document.documentElement.classList.toggle('dark', theme ?? matchMedia('(prefers-color-scheme: dark)').matches);
     } catch {}
+    // Start the small edition requests while CSS and the deferred app load.
+    window.zamenStartup = Object.fromEntries(
+      ['news', 'sheets-news', 'images'].map(name => {
+        const path = 'data/' + name + '.json';
+        return [path, fetch(path, {cache: 'no-cache'}).catch(() => null)];
+      })
+    );
   </script>
-  <link rel="stylesheet" href="styles.css?v=5">
-  <script src="app.js?v=5" defer></script>
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script src="app.js?v=6" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">انتقل إلى المحتوى</a>
@@ -36,8 +45,9 @@
   </header>
   <div class="layout">
     <aside id="sidebar" class="sidebar">
-      <nav id="nav" aria-label="الأقسام"></nav>
+      <nav id="nav" aria-label="أقسام زامن"></nav>
     </aside>
+    <nav id="quickNav" class="quick-nav" aria-label="اختصارات الأقسام"></nav>
     <main id="main" tabindex="-1">
       <form id="searchPanel" role="search" hidden>
         <label for="search">ابحث في الأخبار</label>
@@ -53,5 +63,12 @@
     </main>
   </div>
   <nav id="bottom" class="bottom" aria-label="التنقل السريع"></nav>
+  <dialog id="sections" aria-labelledby="sectionsTitle">
+    <div class="sections-head">
+      <h2 id="sectionsTitle">كل الأقسام</h2>
+      <form method="dialog"><button value="close">إغلاق</button></form>
+    </div>
+    <nav id="sectionsNav" aria-label="كل الأقسام"></nav>
+  </dialog>
 </body>
 </html>
