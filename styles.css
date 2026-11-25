@@ -235,3 +235,7 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
  .category-section .news-grid > .tile:only-child .media { width: clamp(100px,15vw,160px) }
  .category-section .tile { padding-block: .5rem }
 }
+
+/* Unified chronological feed: no empty thumbnail columns. */
+.unified-feed .tile .picture-link:has(.media.is-unavailable){display:none}
+.unified-feed .tile:has(.media.is-unavailable) .copy{grid-column:1/-1}
