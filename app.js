@@ -538,7 +538,6 @@ function renderFeed(announceCount = true) {
     target.append(grid);
     return;
   }
-  const front = element('div', '', 'front');
   const unique = [];
   const seen = new Set();
   const headlines = new Set();
@@ -550,35 +549,10 @@ function renderFeed(announceCount = true) {
     headlines.add(headline);
     unique.push(story);
   }
-  const lead = leadStory(unique);
-  front.append(card(lead, 'featured'));
-  const remaining = unique.filter(story => story !== lead);
-  if (remaining.length) {
-    const latest = element('section', '', 'latest');
-    latest.append(element('h2', 'آخر الأخبار'), ...remaining.slice(0, 3).map(story => card(story, 'brief', 3)));
-    front.append(latest);
-  }
-  const leadTag = front.querySelector('.featured .tag');
-  leadTag.append(element('span', ' · اختيار آلي', 'selection-note'));
-  target.append(front);
-  const grouped = new Map();
-  remaining.slice(3).forEach(story => {
-    const name = group(story);
-    if (!grouped.has(name)) grouped.set(name, []);
-    grouped.get(name).push(story);
-  });
-  for (const name of [...new Set([...categories.map(([label]) => label), ...grouped.keys()])]) {
-    if (!grouped.has(name)) continue;
-    const section = element('section', '', 'category-section');
-    const head = element('div', '', 'section-head');
-    const more = link('عرض الكل', route({section: name}));
-    more.setAttribute('aria-label', 'عرض كل أخبار ' + name);
-    head.append(element('h2', name), more);
-    const grid = element('div', '', 'news-grid');
-    grid.append(...grouped.get(name).slice(0, 3).map(story => card(story, 'tile', 3)));
-    section.append(head, grid);
-    target.append(section);
-  }
+  const grid = element('div', '', 'news-grid unified-feed');
+  grid.append(...unique.map(story => card(story, 'tile')));
+  target.append(grid);
+  $('count').textContent = number.format(unique.length) + ' خبر';
 }
 
 function readingModes(story) {
