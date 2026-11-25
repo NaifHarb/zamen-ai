@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from router import Router
+from news_classification import POLITICS, classify_record
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"data/news.json"
 FEEDS=[
@@ -14,9 +15,10 @@ FEEDS=[
 ("أبل","9to5Mac","https://9to5mac.com/feed/")]
 def clean(s):
     return re.sub(r"\s+"," ",re.sub(r"<[^>]*>"," ",s or "")).strip()
-def collect():
-    for category,source,url in FEEDS:
-        if os.getenv('ZAMEN_POLITICS_ONLY')=='1' and category!='السياسة': continue
+def collect(politics_only=False):
+    for feed_topic,source,url in FEEDS:
+        if politics_only and feed_topic != POLITICS:
+            continue
         try:
             req=urllib.request.Request(url,headers={"User-Agent":"ZamenAI RSS reader"})
             with urllib.request.urlopen(req,timeout=15) as r:
@@ -25,23 +27,32 @@ def collect():
                 link=item.findtext("link","").strip()
                 title=clean(item.findtext("title"))
                 if not link.startswith(("https://","http://")) or not title: continue
-                yield {"id":hashlib.sha256(link.encode()).hexdigest()[:24],"category":category,"source":source,"article_url":link,"original_title":title,"excerpt":clean(item.findtext("description"))[:12000],"published_at":item.findtext("pubDate","")}
+                story = classify_record({
+                    "id": hashlib.sha256(link.encode()).hexdigest()[:24],
+                    "source": source, "article_url": link, "original_title": title,
+                    "excerpt": clean(item.findtext("description"))[:12000],
+                    "published_at": item.findtext("pubDate", ""),
+                })
+                topic = story["rss_category"]
+                if topic and (not politics_only or topic == POLITICS):
+                    story["category"] = topic
+                    yield story
         except (OSError,ET.ParseError) as e:
             print("FEED",source,type(e).__name__)
 def main():
     old=json.loads(OUT.read_text()) if OUT.exists() else {"items":[]}
-    items={x["id"]:x for x in old["items"]}
-    pending=[]
-    for x in collect():
+    items={x["id"]:classify_record(x) for x in old["items"]}
+    politics_only = os.getenv("ZAMEN_POLITICS_ONLY") == "1"
+    for x in collect(politics_only):
         if x["id"] not in items:
             items[x["id"]]=x
-    pending=[x for x in items.values() if not x.get("summary_ar")]
+    pending=[x for x in items.values() if x["rss_category"] and not x.get("summary_ar")]
     def freshness(x):
         try: return parsedate_to_datetime(x.get('published_at','')).timestamp()
         except (ValueError, TypeError, OverflowError): return 0
-    pending.sort(key=lambda x:(x.get('category')=='السياسة',freshness(x)),reverse=True)
-    if os.getenv('ZAMEN_POLITICS_ONLY')=='1':
-        pending=[x for x in pending if x.get('category')=='السياسة' and freshness(x)>datetime.now(timezone.utc).timestamp()-86400][:2]
+    pending.sort(key=lambda x:(x["rss_category"] == POLITICS,freshness(x)),reverse=True)
+    if politics_only:
+        pending=[x for x in pending if x["rss_category"] == POLITICS and freshness(x)>datetime.now(timezone.utc).timestamp()-86400][:2]
     router=Router()
     for i in range(0,min(len(pending),20),2):
         batch=pending[i:i+2]

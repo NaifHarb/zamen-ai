@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "mobile",
+    "variant": "before",
+    "perf": 81,
+    "access": 100,
+    "bp": 100,
+    "FCP": 1116,
+    "LCP": 4462,
+    "CLS": 0.105,
+    "TBT": 12,
+    "failed": []
+  },
+  {
+    "mode": "mobile",
+    "variant": "after",
+    "perf": 88,
+    "access": 100,
+    "bp": 100,
+    "FCP": 1276,
+    "LCP": 3828,
+    "CLS": 0,
+    "TBT": 15,
+    "failed": []
+  },
+  {
+    "mode": "desktop",
+    "variant": "before",
+    "perf": 100,
+    "access": 100,
+    "bp": 100,
+    "FCP": 203,
+    "LCP": 773,
+    "CLS": 0.035,
+    "TBT": 0,
+    "failed": []
+  },
+  {
+    "mode": "desktop",
+    "variant": "after",
+    "perf": 100,
+    "access": 100,
+    "bp": 100,
+    "FCP": 294,
+    "LCP": 752,
+    "CLS": 0,
+    "TBT": 0,
+    "failed": []
+  }
+]
