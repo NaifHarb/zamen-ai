@@ -499,10 +499,10 @@ function card(story, variant, level = 2) {
     picture.setAttribute('aria-label', 'اقرأ: ' + title(story));
     picture.tabIndex = -1;
     picture.append(media(story, {priority: variant === 'featured'}));
-    if (variant === 'featured') copy.append(heading, picture);
+    if (variant === 'featured') { article.append(picture); copy.append(heading); }
     else article.append(picture);
   }
-  if (variant !== 'featured') copy.append(heading);
+  if (variant !== 'featured') { if (variant === 'tile') copy.append(element('p', group(story), 'tile-category')); copy.append(heading); }
   if (variant === 'featured' && (story.summary_ar || story.excerpt)) {
     const deck = element('p', story.summary_ar || story.excerpt, 'deck');
     deck.dir = 'auto';
@@ -600,7 +600,7 @@ function renderFeed(announceCount = true) {
   controls.setAttribute('aria-label','طريقة عرض الأخبار');
   const lead = leadStory(unique);
   const hero = card(lead,'featured');
-  hero.querySelector('.tag').append(element('span',' · اختيار آلي','selection-note'));
+  hero.querySelector('.tag')?.append(element('span',' · اختيار آلي','selection-note'));
   const grid = element('div','','news-grid unified-feed view-'+mode);
   grid.append(...unique.filter(story=>story!==lead).map(story=>card(story,'tile')));
   for (const [key,label] of modes) {
