@@ -204,3 +204,21 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important }
 }
+
+/* Compact phone edition; retain accessible 44px controls. */
+@media (max-width:649px){
+ html{scroll-padding-top:env(safe-area-inset-top);background:var(--paper);-webkit-text-size-adjust:100%}
+ body{padding-top:env(safe-area-inset-top)}
+ .masthead{padding-top:0}
+ .reader-toolbar{top:env(safe-area-inset-top);padding-block-start:0}
+ .story h2,.story h3{font:600 1.08rem/1.55 var(--sans)}
+ .featured h2{font:700 1.65rem/1.4 var(--serif)}
+ .section-head h1,.section-head h2,.latest h2,.category-section h2{font-size:1.4rem}
+ .tile{gap:.45rem;padding-block:.45rem}
+ .tile .meta{font-size:.76rem;margin-block-start:0;gap:.1rem .35rem}
+ .tile .picture-link:has(.media.is-unavailable){display:none}
+ .tile:has(.media.is-unavailable) .copy{grid-column:1/-1}
+ .category-section{margin-block-start:1rem}
+ .category-section .section-head a{text-decoration:none}
+ .bottom{padding-inline-start:max(.35rem,env(safe-area-inset-right));padding-inline-end:max(.35rem,env(safe-area-inset-left))}
+}
