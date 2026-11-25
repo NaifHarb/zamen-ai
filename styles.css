@@ -256,3 +256,31 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
 .view-expanded .tile .media{width:100%;aspect-ratio:16/9}
 .view-expanded .tile .copy{width:100%}
 .view-expanded .story h2{font:700 1.55rem/1.4 var(--serif)}
+
+/* ZAMEN merged editorial edition — original brand assets retained. */
+#news > .featured{position:relative;display:grid;overflow:hidden;border:0;border-radius:14px;background:#191716;color:#fff;padding:0;margin-block-end:1.25rem;isolation:isolate}
+#news > .featured > .picture-link,#news > .featured > .copy{grid-area:1/1}
+#news > .featured > .picture-link{display:block;align-self:stretch}
+#news > .featured .media{width:100%;height:100%;max-height:none;min-height:clamp(330px,43vw,480px);aspect-ratio:auto;border-radius:0}
+#news > .featured > .copy{position:relative;align-self:end;z-index:1;padding:clamp(1rem,3vw,2rem);background:linear-gradient(transparent,#151313ed 32%,#151313);padding-block-start:4rem;pointer-events:none}
+#news > .featured .copy a,#news > .featured .copy button{pointer-events:auto;color:inherit}
+#news > .featured .tag{display:inline-block;background:#a81827;color:#fff;padding:.2rem .6rem;border-radius:6px;font-size:.8rem}
+#news > .featured .story-title{font:700 clamp(1.65rem,3.4vw,2.8rem)/1.35 var(--serif);margin-block:.35rem}
+#news > .featured .deck{color:#eee;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:1rem}
+#news > .featured .meta{color:#ddd}
+#news > .featured .media.is-editorial .mark{inset:0 0 auto auto;width:max-content}
+.feed-view-controls{justify-content:stretch;gap:.4rem}
+.feed-view-controls button{flex:1;border-radius:9px;font-weight:600}
+.feed-view-controls button[aria-pressed=true]{background:#b51223;color:white;border-color:#b51223}
+.unified-heading{border-inline-start:4px solid var(--accent);padding-inline-start:.55rem}
+.tile-category{font-size:.76rem;color:var(--accent);font-weight:600;margin:0 0 .2rem}
+.unified-feed.view-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+.view-grid .tile{display:flex;flex-direction:column;gap:.4rem;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;padding:0}
+.view-grid .tile .picture-link,.view-grid .tile .media{width:100%;aspect-ratio:16/10;border-radius:0}
+.view-grid .tile .copy{padding:.55rem .65rem;width:100%}
+.view-grid .tile .story-title{font:600 1.03rem/1.5 var(--sans)}
+.view-list .tile .picture-link{grid-column:1;grid-row:1}
+.view-list .tile{grid-template-columns:auto minmax(0,1fr)}
+.view-list .tile .copy{grid-column:2}
+@media(min-width:1000px){.unified-feed.view-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:360px){.unified-feed.view-grid{grid-template-columns:1fr}}
