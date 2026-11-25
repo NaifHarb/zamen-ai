@@ -1,6 +1,7 @@
-import json, hashlib, re, urllib.request, xml.etree.ElementTree as ET
+import os, json, hashlib, re, urllib.request, xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from router import Router
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"data/news.json"
@@ -15,6 +16,7 @@ def clean(s):
     return re.sub(r"\s+"," ",re.sub(r"<[^>]*>"," ",s or "")).strip()
 def collect():
     for category,source,url in FEEDS:
+        if os.getenv('ZAMEN_POLITICS_ONLY')=='1' and category!='السياسة': continue
         try:
             req=urllib.request.Request(url,headers={"User-Agent":"ZamenAI RSS reader"})
             with urllib.request.urlopen(req,timeout=15) as r:
@@ -34,6 +36,12 @@ def main():
         if x["id"] not in items:
             items[x["id"]]=x
     pending=[x for x in items.values() if not x.get("summary_ar")]
+    def freshness(x):
+        try: return parsedate_to_datetime(x.get('published_at','')).timestamp()
+        except (ValueError, TypeError, OverflowError): return 0
+    pending.sort(key=lambda x:(x.get('category')=='السياسة',freshness(x)),reverse=True)
+    if os.getenv('ZAMEN_POLITICS_ONLY')=='1':
+        pending=[x for x in pending if x.get('category')=='السياسة' and freshness(x)>datetime.now(timezone.utc).timestamp()-86400][:2]
     router=Router()
     for i in range(0,min(len(pending),20),2):
         batch=pending[i:i+2]
