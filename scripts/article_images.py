@@ -1,5 +1,7 @@
 import json
 from pathlib import Path
+from datetime import datetime
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from urllib.parse import urljoin, urlparse
@@ -10,7 +12,9 @@ class Meta(HTMLParser):
         self.image = ''
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
-        if tag == 'meta' and (a.get('property') or a.get('name')) in ('og:image', 'twitter:image', 'og:image:secure_url'):
+        if tag == 'link' and a.get('rel') == 'image_src':
+            self.image = self.image or a.get('href','')
+        if tag == 'meta' and (a.get('property') or a.get('name')) in ('og:image', 'twitter:image', 'og:image:secure_url', 'twitter:image:src'):
             self.image = self.image or a.get('content', '')
 def fetch(item):
     try:
@@ -23,8 +27,10 @@ def fetch(item):
             image = urljoin(response.geturl(), parser.image) if parser.image else ''
             if urlparse(image).scheme == 'https':
                 return item['id'], image
-    except Exception:
-        pass
+    except Exception as e:
+        print('IMAGE', item.get('id'), type(e).__name__)
+    else:
+        print('NO_IMAGE', item.get('id'))
     return None
 p = Path('data/images.json')
 old = json.loads(p.read_text()) if p.exists() else {}
@@ -33,8 +39,15 @@ for f in ('data/news.json', 'data/sheets-news.json'):
     if Path(f).exists():
         items.update({x['id']: x for x in json.loads(Path(f).read_text()).get('items', [])})
 result = {k:v for k,v in old.items() if k in items}
+def freshness(x):
+    v=x.get('published_at','')
+    try: return datetime.fromisoformat(v.replace('Z','+00:00')).timestamp()
+    except (ValueError, TypeError):
+        try: return parsedate_to_datetime(v).timestamp()
+        except (ValueError, TypeError, OverflowError): return 0
+pending=sorted((x for k,x in items.items() if k not in result and x.get('title_ar') and x.get('summary_ar')),key=freshness,reverse=True)
 with ThreadPoolExecutor(max_workers=8) as pool:
-    for pair in pool.map(fetch, [x for k,x in items.items() if k not in result][:120]):
+    for pair in pool.map(fetch, pending[:120]):
         if pair:
             result[pair[0]] = pair[1]
 p.write_text(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True)+'\n')
