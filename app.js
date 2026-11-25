@@ -601,8 +601,24 @@ function renderFeed(announceCount = true) {
   const lead = leadStory(unique);
   const hero = card(lead,'featured');
   hero.querySelector('.tag')?.append(element('span',' · اختيار آلي','selection-note'));
+  const remaining = unique.filter(story=>story!==lead);
+  const highlights = remaining.length >= 6 ? remaining.slice(0,3) : [];
+  const front = element('div','','private-front');
+  front.append(hero);
+  if(highlights.length){
+    const aside=element('section','','private-highlights');
+    aside.append(element('h2','أبرز اليوم'));
+    aside.append(...highlights.map(story=>card(story,'tile',3)));
+    front.append(aside);
+  }
+  const sections=element('nav','','private-sections');
+  sections.setAttribute('aria-label','أقسام الأخبار');
+  for(const [name,glyph] of categories.slice(1,-1)){
+    const a=link(name,route({section:name}),'private-section',glyph);
+    sections.append(a);
+  }
   const grid = element('div','','news-grid unified-feed view-'+mode);
-  grid.append(...unique.filter(story=>story!==lead).map(story=>card(story,'tile')));
+  grid.append(...remaining.filter(story=>!highlights.includes(story)).map(story=>card(story,'tile')));
   for (const [key,label] of modes) {
     const control = button(label);
     control.dataset.view = key;
@@ -615,8 +631,8 @@ function renderFeed(announceCount = true) {
     };
     controls.append(control);
   }
-  target.append(controls,hero);
-  if(unique.length>1) target.append(element('h2','آخر الأخبار','unified-heading'),grid);
+  target.append(front,sections);
+  if(grid.childElementCount) target.append(element('h2','أحدث الأخبار','unified-heading'),controls,grid);
   $('count').textContent = number.format(unique.length) + ' خبر';
 }
 
