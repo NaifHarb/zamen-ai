@@ -284,3 +284,26 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
 .view-list .tile .copy{grid-column:2}
 @media(min-width:1000px){.unified-feed.view-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:360px){.unified-feed.view-grid{grid-template-columns:1fr}}
+
+/* ZAMEN — The Private Brief */
+:root{--paper:#f2e9d8;--panel:#faf4e9;--ink:#191817;--muted:#62554a;--line:#d5c6ae;--accent:#74313d;--tint:#ead8d6;--bar:#f2e9d8;--bar-text:#191817;--gold:#80643a;--radius:10px}
+:root.dark{--paper:#191817;--panel:#222324;--ink:#f2e9d8;--muted:#c4b8a7;--line:#494039;--accent:#e4a2ad;--tint:#482a31;--bar:#121518;--bar-text:#f2e9d8;--gold:#b49a64}
+.masthead{border-block-end:1px solid var(--line)}
+.edition{color:var(--muted)}
+.brand span span{color:var(--gold)}
+.tools button[aria-pressed=true],.tools button:hover{background:var(--tint);color:var(--accent)}
+.quick-nav .nav-link,.sidebar .nav-link{border-radius:8px}
+.nav-link[aria-current],.tab[aria-current]{font-weight:600}
+.section-head h1,.unified-heading,.reader h1{font-family:var(--serif)}
+.unified-heading{border-inline-start-color:var(--gold)}
+#news > .featured{border:1px solid #6e5841;border-radius:14px;background:#182330}
+#news > .featured > .copy{background:linear-gradient(transparent,#191817e8 38%,#26171b)}
+#news > .featured .tag,.feed-view-controls button[aria-pressed=true]{background:#74313d;border-color:#74313d;color:#fff}
+.view-grid .tile{border-radius:12px}
+.view-grid .tile .story-title{font-family:var(--serif);font-size:1.2rem;line-height:1.45}
+.tile-category{color:var(--gold)}
+.bottom{background:var(--paper);border-block-start:1px solid var(--line)}
+.reader .reading-copy{line-height:1.95}
+@media(prefers-reduced-motion:no-preference){button,.nav-link,.tab{transition:background-color .16s,color .16s,border-color .16s}}
+@media(max-width:649px){#news > .featured .media{min-height:360px}#news > .featured .deck{-webkit-line-clamp:2}.brand strong{font-size:2rem}}
+@media(min-width:1000px){#news > .featured .media{min-height:440px}.view-grid .tile .copy{padding:.85rem}}
