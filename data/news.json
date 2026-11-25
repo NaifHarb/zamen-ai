@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T07:17:01.044921+00:00",
+  "updated_at": "2026-11-25T08:42:09.456240+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -899,6 +899,43 @@
       "detailed_ar": "تدرس المهمة كويكباً تم تغيير مساره عمداً نتيجة اصطدام مركبة فضائية به، وذلك بعد مرور أربع سنوات على وقوع الاصطدام الضخم، حيث عادت مركبة فضائية في الوقت الحالي لتقييم حجم الأضرار الناتجة عن ذلك.",
       "content_basis": "rss_excerpt",
       "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "f07a2bf7861aede70545eb1f",
+      "category": "السياسة",
+      "source": "BBC Arabic",
+      "article_url": "https://www.bbc.com/arabic/articles/c60rk1r8pnvzo?at_medium=RSS&at_campaign=rss",
+      "original_title": "أزمة الإسكان العالمية: اكتشف ما الذي يتطلبه امتلاك منزل في المكان الذي تعيش فيه",
+      "excerpt": "بحسب مجلس الاتحاد الأوروبي، ارتفعت أسعار المساكن في الاتحاد الأوروبي في المتوسط بنسبة 60 في المئة خلال السنوات العشر الماضية، في حين يعجز شخص من كل عشرة أشخاص عن دفع الإيجار أو أقساط التمويل العقاري في موعدها، ما يدل على اتساع نطاق المشكلة.",
+      "published_at": "Wed, 25 Nov 2026 08:35:29 GMT",
+      "title_ar": "أزمة الإسكان العالمية: اكتشف ما الذي يتطلبه امتلاك منزل في المكان الذي تعيش فيه",
+      "summary_ar": "ارتفعت أسعار المساكن في الاتحاد الأوروبي بنسبة 60% خلال عقد، ويعجز شخص من كل عشرة عن دفع الإيجار أو التمويل العقاري.",
+      "detailed_ar": "وفقاً لمجلس الاتحاد الأوروبي، شهدت أسعار المساكن في الاتحاد الأوروبي ارتفاعاً متوسطاً بنسبة 60 في المئة على مدار السنوات العشر الماضية. كما أشارت المعطيات إلى أن شخصاً واحداً من كل عشرة أشخاص يعجز عن دفع الإيجار أو أقساط التمويل العقاري في موعدها المحدد، وهو ما يعكس اتساع نطاق مشكلة أزمة الإسكان العالمية.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6c86aca0d2120a2e2ef54b61",
+      "category": "السياسة",
+      "source": "BBC Arabic",
+      "article_url": "https://www.bbc.com/arabic/articles/cq4gn8znp7y4o?at_medium=RSS&at_campaign=rss",
+      "original_title": "ماذا نعرف عن الحانوتي الذي دفن 18 ألف شخص في 3 أعوام؟",
+      "excerpt": "لم يقتصر العبء على ضخامة الأعداد فحسب، بل امتد إلى شحّ أبسط المستلزمات لدفن الموتى",
+      "published_at": "Wed, 25 Nov 2026 07:43:21 GMT",
+      "title_ar": "ماذا نعرف عن الحانوتي الذي دفن 18 ألف شخص في 3 أعوام؟",
+      "summary_ar": "حُنوتي يدفن 18 ألف شخص في 3 أعوام وسط أعباء ثقيلة وشح في أبسط مستلزمات الدفن.",
+      "detailed_ar": "تناول التقرير قصة حُنوتي قام بدفن 18 ألف شخص في غضون 3 أعوام، مبيناً أن العبء لم يقتصر فقط على ضخامة أعداد المتوفين، بل امتد ليشمل شح أبسط المستلزمات اللازمة لدفن الموتى.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "2d4be277456770f9a64ab839",
+      "category": "السياسة",
+      "source": "BBC World",
+      "article_url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
+      "excerpt": "The son of Zimbabwe's late former President Robert Mugabe has faced multiple legal troubles in the recent past.",
+      "published_at": "Wed, 25 Nov 2026 07:26:54 GMT"
     }
   ]
 }
