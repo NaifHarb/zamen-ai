@@ -1,6 +1,6 @@
-const CACHE = 'zamen-v9';
+const CACHE = 'zamen-v10';
 const SHELL = [
-  './index.html', './styles.css?v=9', './app.js?v=9', './manifest.webmanifest', './icon.svg',
+  './index.html', './styles.css?v=10', './app.js?v=10', './manifest.webmanifest', './icon.svg',
   './icon-180.png', './icon-192.png', './icon-512.png',
   './fonts/plex-ar-regular.woff2', './fonts/plex-ar-semibold.woff2', './fonts/naskh-ar.woff2'
 ];
