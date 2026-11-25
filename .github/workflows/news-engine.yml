@@ -1,6 +1,8 @@
-name: Test news engine
+name: News engine — political updates
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -19,6 +21,7 @@ jobs:
         run: python -m compileall scripts
       - name: Collect and enrich news
         env:
+          ZAMEN_POLITICS_ONLY: '1'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/news.py
       - name: Save news
@@ -28,5 +31,6 @@ jobs:
           git add data/news.json
           if ! git diff --cached --quiet; then
             git commit -m "Update news dataset"
+            git pull --rebase origin main
             git push
           fi
