@@ -104,7 +104,7 @@ function categoryAlias(name) {
 }
 
 const number = new Intl.NumberFormat('ar-SA');
-const dateOptions = {calendar: 'gregory', timeZone: 'Asia/Riyadh'};
+const dateOptions = {calendar: 'gregory', numberingSystem: 'latn', timeZone: 'Asia/Riyadh'};
 const shortDate = new Intl.DateTimeFormat('ar-SA', {...dateOptions, day: 'numeric', month: 'short', year: 'numeric'});
 const longDate = new Intl.DateTimeFormat('ar-SA', {...dateOptions, weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'});
 const clock = new Intl.DateTimeFormat('ar-SA', {...dateOptions, hour: 'numeric', minute: '2-digit'});
@@ -355,10 +355,12 @@ function media(story, {priority = false, reader = false} = {}) {
     if (!next) {
       source = '';
       photo.classList.add('is-pending');
+      frame.classList.toggle('is-unavailable', imageMapReady);
       mark.textContent = imageMapReady ? 'الصورة غير متاحة' : '';
       mark.hidden = false;
       return;
     }
+    frame.classList.remove('is-unavailable');
     attempted.add(next);
     source = next;
     mark.hidden = true;
