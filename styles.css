@@ -225,3 +225,13 @@ footer { border-block-start: 1px solid var(--line); margin-block-start: 2rem; pa
 
 /* Collapse confirmed missing hero images, retaining pending image space. */
 .featured .picture-link:has(.media.is-unavailable) { display: none }
+
+/* Adapt editorial section columns to the actual number of stories. */
+.category-section .section-head a { text-decoration: none }
+@media (min-width:650px) {
+ .category-section { margin-block-start: .85rem }
+ .category-section .news-grid:has(> .tile:only-child) { grid-template-columns: minmax(0,1fr) }
+ .category-section .news-grid:has(> .tile:nth-child(2):last-child) { grid-template-columns: repeat(2,minmax(0,1fr)) }
+ .category-section .news-grid > .tile:only-child .media { width: clamp(100px,15vw,160px) }
+ .category-section .tile { padding-block: .5rem }
+}
