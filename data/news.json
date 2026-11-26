@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T00:02:09.186054+00:00",
+  "updated_at": "2026-11-26T01:08:48.754094+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -1118,6 +1118,21 @@
       "title_ar": "كوريا الشمالية تطرد دبلوماسياً سويسرياً على خلفية نزاع بشأن العقوبات",
       "summary_ar": "أعلنت السلطات السويسريّة أن العلاقات ستُستمر عبر سفارة كوريا الشمالية في بيرن وسفارتها هي في بيجين، وذلك إثر طرد دبلوماسي سويسري.",
       "detailed_ar": "أفادت تقارير إخبارية بأن كوريا الشمالية قامت بطرد دبلوماسي سويسري على خلفية نزاع تتعلق بالعقوبات. وفي أعقاب ذلك، صرح مسؤولون سويسريون بأن العلاقات الثنائية سيتم الحفاظ عليها والiorاستمرار من خلال سفارة كوريا الشمالية الواقعة في العاصمة السويسرية بيرن، إضافة إلى سفارة سويسرا الخاصة في العاصمة الصينية بيجين.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1948fca9bbe107ced6c36dd2",
+      "source": "BBC World",
+      "article_url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
+      "excerpt": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
+      "published_at": "Wed, 25 Nov 2026 16:42:11 GMT",
+      "rss_category": "السياسة",
+      "category": "السياسة",
+      "title_ar": "السجلات تظهر تداول حسابات ترامب أسهم إنفيديا 44 مرة هذا العام",
+      "summary_ar": "أظهرت مراجعة للإفصاحات المالية للرئيس الأمريكي دونالد ترامب قيام محافظه الاستثمارية بالتداول المنتظم لأسهم شركة التكنولوجيا العملاقة «إنفيديا».",
+      "detailed_ar": "أظهرت مراجعة أُجريت على الإفصاحات المالية للرئيس الأمريكي أن المحافظ الاستثمارية الخاصة بدونالد ترامب قد قامت بتداول أسهم شركة التكنولوجيا العملاقة «إنفيديا» 44 مرة خلال هذا العام، وفقاً لما توضحه السجلات.",
       "content_basis": "rss_excerpt",
       "model": "gemini-3.5-flash-lite"
     }
