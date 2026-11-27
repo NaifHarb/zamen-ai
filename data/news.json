@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T18:37:07.688100+00:00",
+  "updated_at": "2026-11-27T19:37:27.238135+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -1298,6 +1298,21 @@
       "title_ar": "السجن 25 عاماً لحاكم كيني سابق على خلفية قتل صديقته الحامل",
       "summary_ar": "الحكم بسجن حاكم كيني سابق لمدة 25 عاماً إثر مقتل طالبة حامل بعد مغادرتها فندقاً مع صحفي تواصلت معه بشأن علاقتها بالحاكم.",
       "detailed_ar": "صدر حكم بالسجن لمدة 25 عاماً بحق حاكم كيني سابق على خلفية تورطه في مقتل صديقته الطالبة الحامل. وكانت الضحية قد قُتلت عقب مغادرتها أحد الفنادق رفقة صحفي كانت قد تواصلت معه بغرض مناقشة تفاصيل علاقتها بالحاكم المذكور.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1eab93bf7e54c93e2ea5771b",
+      "source": "BBC World",
+      "article_url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+      "excerpt": "Ukraine settles in for another devastating winter as the questions persists: how will it all end?",
+      "published_at": "Fri, 27 Nov 2026 18:42:50 GMT",
+      "rss_category": "السياسة",
+      "category": "السياسة",
+      "title_ar": "أوكرانيا تواجه شتاءً قاسياً آخر وسط الإرهاق من الحرب وغياب أي مؤشر على التراجع",
+      "summary_ar": "تستعد أوكرانيا لاستقبال شتاء مدمر آخر بينما تواصل الأسئلة طرح نفسها بشأن مألوفية وكيفية نهاية النزاع.",
+      "detailed_ar": "تستعد أوكرانيا لاستقبال شتاء مدمر آخر، بينما تظل التساؤلات قائمة بلا حسم حول كيف سينتهي هذا الصراع بأكمله، وذلك في وقت تُظهر فيه كييف إرهاقاً من الحرب مع غياب أي مؤشر على تراجعها.",
       "content_basis": "rss_excerpt",
       "model": "gemini-3.5-flash-lite"
     }
