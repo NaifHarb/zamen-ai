@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T17:05:29.865872+00:00",
+  "updated_at": "2026-11-28T17:47:13.930054+00:00",
   "items": [
     {
       "id": "84f7fab9891e6993407389b6",
@@ -1418,6 +1418,21 @@
       "title_ar": "ماذا يعني تقدّم الحوثيين بالنسبة لإيران والصراع الإقليمي؟",
       "summary_ar": "تناول مقتطف إخباري الأهمية الاستراتيجية لتقدم الحوثيين في اليمن والسيطرة حول باب المندب بالنسبة لإيران، وسط تساؤلات عن قدرة طهران على توظيف ذلك في مواجهة الولايات المتحدة وحدود نفوذها على الجماعة.",
       "detailed_ar": "يكتسب تقدّم الحوثيين في اليمن وسيطرتهم على المناطق المحيطة بمضيق باب المندب أهمية استراتيجية متزايدة بالنسبة لإيران، وسط تساؤلات بشأن مدى قدرة طهران على توظيف هذه المكاسب في مواجهتها مع الولايات المتحدة، وحدود نفوذها على الجماعة.",
+      "content_basis": "rss_excerpt",
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "f4acbbbda738b3bd5f84c166",
+      "source": "BBC World",
+      "article_url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Dozens killed in Myanmar military strikes on wedding venue and school",
+      "excerpt": "Air strikes by Myanmar's military government have killed dozens of civilians across the South East Asian nation in recent days.",
+      "published_at": "Sat, 28 Nov 2026 16:53:20 GMT",
+      "rss_category": "السياسة",
+      "category": "السياسة",
+      "title_ar": "مقتل العشرات في غارات جوية للجيش البورمي تستهدف حفل زفاف ومدرسة",
+      "summary_ar": "أسفرت غارات جوية نفذتها الحكومة العسكرية في ميانمار عن مقتل عشرات المدنيين في أنحاء البلاد خلال الأيام القليلة الماضية.",
+      "detailed_ar": "أفادت تقارير بأن غارات جوية شنها الجيش الحكومي في ميانمار أسفرت عن مقتل العشرات من المدنيين في مناطق متفرقة من الواقعة في جنوب شرق آسيا وذلك خلال الأيام القليلة الماضية، حيث استهدفت الغارات موقعاً لحفل زفاف ومدرسة.",
       "content_basis": "rss_excerpt",
       "model": "gemini-3.5-flash-lite"
     }
